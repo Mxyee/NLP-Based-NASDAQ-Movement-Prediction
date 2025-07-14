@@ -1,7 +1,7 @@
 import pandas as pd
 
 # 嘗試讀取 nasdaq.csv（與 main.py 同一層）
-df = pd.read_csv("nasdaq.csv")
+df = pd.read_csv("nasdaq_history.csv")
 
 # 加入 label 欄位（Close > Open 為 1，否則為 0）
 df["label"] = (df["Close"] > df["Open"]).astype(int)

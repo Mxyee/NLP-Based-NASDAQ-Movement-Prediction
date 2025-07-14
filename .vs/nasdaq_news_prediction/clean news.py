@@ -1,36 +1,43 @@
 import pandas as pd
+from dateutil import parser
 
-# 輸入與輸出檔案名稱
-input_file = "nasdaq_news_gnews.csv"
-output_file = "nasdaq_news_cleaned.csv"
+# Input and output paths
+input_file = "all_raw_news.csv"
+output_file = "all_news_cleaned_sorted.csv"
 
-# 讀入原始資料
-try:
-    df = pd.read_csv(input_file)
-    print(f"📥 原始筆數：{len(df)}")
+# Read the input CSV file
+df = pd.read_csv(input_file)
 
-    # 保留原始版本備查
-    df_raw = df.copy()
+# Back up the original date column
+df['date_raw'] = df['date']
 
-    # 清除無效標題（NaN 或純空白）
-    df = df[df['title'].astype(str).str.strip() != ""]
-    df = df[df['title'].notnull()]
+# Try to fix the date field format: use dateutil.parser to handle non-standard formats
+def parse_date_safe(date_str):
+    try:
+        return parser.parse(str(date_str))
+    except:
+        return pd.NaT
 
-    print(f"🧹 移除空白或缺失標題後：{len(df)}")
+df['date'] = df['date_raw'].apply(parse_date_safe)
 
-    # 軟性去重：只用 title 做唯一性（比較保守）
-    df_cleaned = df.drop_duplicates(subset=['title'])
+# Print which fields were originally problematic
+invalid_dates = df[df['date'].isna()]
+print(f"Number of dates that could not be parsed:{len(invalid_dates)}")
 
-    print(f"📊 去重後剩下：{len(df_cleaned)}（移除 {len(df) - len(df_cleaned)} 筆重複標題）")
+# Clean up titles (remove - CNBC etc)
+# Remove leading b' or b" and trailing news sources like " - CNBC"
+df['title_clean'] = df['title'].str.replace(r"^b[\"']", "", regex=True).str.replace(r"\s*-\s*[A-Za-z\s]+$", "", regex=True)
 
-    # 日期欄轉換與排序
-    df_cleaned['date'] = pd.to_datetime(df_cleaned['date'], errors='coerce')
-    df_cleaned = df_cleaned.dropna(subset=['date'])
-    df_cleaned = df_cleaned.sort_values(by='date')
+# Filter out empty or short titles
+df = df[df['title_clean'].str.len() > 15]
 
-    # 儲存結果
-    df_cleaned.to_csv(output_file, index=False)
-    print(f"✅ 輸出結果：{output_file}，共 {len(df_cleaned)} 筆")
+# Remove duplicate titles
 
-except Exception as e:
-    print("❌ 發生錯誤：", e)
+
+
+# Sort by date (NaT comes last)
+df = df.sort_values(by='date').reset_index(drop=True)
+
+# Store the result
+df.to_csv(output_file, index=False)
+print(f"✅ Cleaning completed: {len(df)} records in total, output to {output_file}")
