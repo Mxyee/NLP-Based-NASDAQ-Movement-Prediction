@@ -10,17 +10,30 @@ from tensorflow.keras.callbacks import EarlyStopping
 
 # --- 1. Load data ---
 df = pd.read_csv("Merged_News_and_NASDAQ_Data_Extended_With_Sentiment.csv")
-df = df.dropna(subset=['title_clean', 'sentiment_score_z', 'label'])
+df['Date'] = pd.to_datetime(df['Date'])
+df['Close'] = df['Close'].astype(str).str.replace(',', '')
+#Change Close to numeric, errors='coerce' will convert non-numeric values to NaN
+df['Close'] = pd.to_numeric(df['Close'], errors='coerce')
+df = df.dropna(subset=['title_clean', 'sentiment_score_z', 'label', 'Close'])
+#Calculate moving average for the last 5 days
+df['MA_5'] = df['Close'].rolling(window=5).mean()
+#Calculate moving average for the last 20 days
+df['MA_20'] = df['Close'].rolling(window=20).mean()
+#Calculate momentum as the difference between the current close and the close 1 day ago
+df['Momentum_1d'] = df['Close'].diff()
+df['Momentum_5d'] = df['Close'].diff(periods=5)
+
+df.dropna()
 
 X_text = df['title_clean'].tolist()
-X_sentiment_z = df['sentiment_score_z'].values.astype(np.float32)
+X_numerical = df[['sentiment_score_z', 'MA_5', 'MA_20', 'Momentum_1d', 'Momentum_5d']].values.astype(np.float32)
 y = df['label'].tolist()
 
 # 2. Train-test split
 X_train_text, X_test_text, \
-X_train_sentiment, X_test_sentiment, \
+X_train_numerical, X_test_numerical, \
 y_train, y_test = train_test_split(
-    X_text, X_sentiment_z, y, test_size=0.2, random_state=42, stratify=y
+    X_text, X_numerical, y, test_size=0.2, random_state=42, stratify=y
 )
 
 # 3. Initialize FinBERT Tokenizer and TFAutoModelForSequenceClassification
@@ -43,25 +56,24 @@ def tokenize_texts(texts, tokenizer, max_length):
         return_tensors='tf'
     )
 
-def create_multi_input_tf_dataset(texts, sentiments, labels, tokenizer, batch_size=16, shuffle=True):
+def create_multi_input_tf_dataset(texts, numerical_features, labels, tokenizer, batch_size=16, shuffle=True):
     encoding = tokenize_texts(texts, tokenizer, max_length)
-    sentiments_tf = tf.convert_to_tensor(sentiments, dtype=tf.float32)
-    sentiments_tf = tf.expand_dims(sentiments_tf, axis=1)
-    #ensure labels are tf.float32
+    numerical_tf = tf.convert_to_tensor(numerical_features, dtype=tf.float32)
     labels_tf = tf.convert_to_tensor(labels, dtype=tf.float32)
+    #ensure labels are tf.float32
     dataset = tf.data.Dataset.from_tensor_slices((
         ({"input_ids": encoding["input_ids"],
           "attention_mask": encoding["attention_mask"],
           "token_type_ids": encoding["token_type_ids"]},
-         sentiments_tf),
+         numerical_tf),
         labels_tf
     ))
     if shuffle:
         dataset = dataset.shuffle(buffer_size=len(texts))
     return dataset.batch(batch_size).prefetch(tf.data.AUTOTUNE)
 
-train_dataset = create_multi_input_tf_dataset(X_train_text, X_train_sentiment, y_train, tokenizer, batch_size=16, shuffle=True)
-test_dataset = create_multi_input_tf_dataset(X_test_text, X_test_sentiment, y_test, tokenizer, batch_size=16, shuffle=False)
+train_dataset = create_multi_input_tf_dataset(X_train_text, X_train_numerical, y_train, tokenizer, batch_size=16, shuffle=True)
+test_dataset = create_multi_input_tf_dataset(X_test_text, X_test_numerical, y_test, tokenizer, batch_size=16, shuffle=False)
 
 # 6. Build multi-input Keras model
 input_ids = tf.keras.Input(shape=(max_length,), dtype=tf.int32, name='input_ids')
@@ -78,8 +90,7 @@ bert_output_lambda = tf.keras.layers.Lambda(
     output_shape=(768,)
 )([input_ids, attention_mask, token_type_ids])
 
-numerical_input = tf.keras.Input(shape=(1,), dtype=tf.float32, name='numerical_input')
-
+numerical_input = tf.keras.Input(shape=(X_numerical.shape[1],), dtype=tf.float32, name='numerical_input')
 concatenated_features = tf.keras.layers.concatenate([bert_output_lambda, numerical_input])
 x = tf.keras.layers.Dense(128, activation='relu')(concatenated_features)
 x = tf.keras.layers.Dropout(0.3)(x)
@@ -103,8 +114,8 @@ if base_bert_model.pooler is not None:
 
 # 7. Compute class weights
 class_weights = compute_class_weight('balanced', classes=np.unique(y_train), y=y_train)
-class_weight_dict = {0: 1.2, # Adjust these weights based on your dataset
-                     1: 0.9}
+class_weight_dict = {0: 1.1, # Adjust these weights based on your dataset
+                     1: 0.95}
 print("Class weights:", class_weight_dict)
 
 # 8. Compile model
@@ -138,7 +149,7 @@ print(f"Test Precision: {results['precision']:.4f}, Test Recall: {results['recal
 
 # 11. Predict and report
 test_text_encoding = tokenize_texts(X_test_text, tokenizer, max_length)
-test_sentiment_tf = tf.expand_dims(tf.convert_to_tensor(X_test_sentiment, dtype=tf.float32), axis=1)
+test_sentiment_tf = tf.expand_dims(tf.convert_to_tensor(X_test_numerical, dtype=tf.float32), axis=1)
 test_inputs_for_predict = [
     {
         'input_ids': test_text_encoding['input_ids'],
@@ -146,7 +157,7 @@ test_inputs_for_predict = [
         'token_type_ids': test_text_encoding['token_type_ids']
         
     },
-    test_sentiment_tf
+    tf.convert_to_tensor(X_test_numerical, dtype=tf.float32)
 ]
 y_pred_probs = model.predict(test_inputs_for_predict)
 y_pred = (y_pred_probs.flatten() > 0.5).astype(int)
