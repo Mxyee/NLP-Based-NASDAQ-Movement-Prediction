@@ -23,7 +23,7 @@ df['MA_20'] = df['Close'].rolling(window=20).mean()
 df['Momentum_1d'] = df['Close'].diff()
 df['Momentum_5d'] = df['Close'].diff(periods=5)
 
-df.dropna()
+df = df.dropna()
 
 X_text = df['title_clean'].tolist()
 X_numerical = df[['sentiment_score_z', 'MA_5', 'MA_20', 'Momentum_1d', 'Momentum_5d']].values.astype(np.float32)
@@ -114,8 +114,7 @@ if base_bert_model.pooler is not None:
 
 # 7. Compute class weights
 class_weights = compute_class_weight('balanced', classes=np.unique(y_train), y=y_train)
-class_weight_dict = {0: 1.1, # Adjust these weights based on your dataset
-                     1: 0.95}
+class_weight_dict = dict(enumerate(class_weights))
 print("Class weights:", class_weight_dict)
 
 # 8. Compile model
