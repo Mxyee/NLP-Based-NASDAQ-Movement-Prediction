@@ -92,7 +92,7 @@ model = tf.keras.Model(
 for layer in base_bert_model.encoder.layer:
     layer.trainable = False  # Freeze all layers initially
 
-num_unfrozen_layers = 2
+num_unfrozen_layers = 3
 for layer in base_bert_model.encoder.layer[-num_unfrozen_layers:]:
     layer.trainable = True
 # Freeze the base BERT model
@@ -103,11 +103,12 @@ if base_bert_model.pooler is not None:
 
 # 7. Compute class weights
 class_weights = compute_class_weight('balanced', classes=np.unique(y_train), y=y_train)
-class_weight_dict = dict(enumerate(class_weights))
+class_weight_dict = {0: 1.2, # Adjust these weights based on your dataset
+                     1: 0.9}
 print("Class weights:", class_weight_dict)
 
 # 8. Compile model
-optimizer = tf.keras.optimizers.Adam(learning_rate=2e-5)
+optimizer = tf.keras.optimizers.Adam(learning_rate=1e-5)
 loss = tf.keras.losses.BinaryCrossentropy()
 metrics = [
     tf.keras.metrics.BinaryAccuracy(name='accuracy'),
@@ -119,7 +120,7 @@ model.compile(optimizer=optimizer, loss=loss, metrics=metrics)
 model.summary()
 
 # 9. Train model
-early_stopping = EarlyStopping(monitor='val_loss', patience=5, restore_best_weights=True)
+early_stopping = EarlyStopping(monitor='val_loss', patience=10, restore_best_weights=True)
 print("\nStarting FinBERT + Sentiment multi-input model training...")
 history = model.fit(
     train_dataset,
