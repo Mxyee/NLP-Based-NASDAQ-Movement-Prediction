@@ -47,6 +47,7 @@ def create_multi_input_tf_dataset(texts, sentiments, labels, tokenizer, batch_si
     encoding = tokenize_texts(texts, tokenizer, max_length)
     sentiments_tf = tf.convert_to_tensor(sentiments, dtype=tf.float32)
     sentiments_tf = tf.expand_dims(sentiments_tf, axis=1)
+    #ensure labels are tf.float32
     labels_tf = tf.convert_to_tensor(labels, dtype=tf.float32)
     dataset = tf.data.Dataset.from_tensor_slices((
         ({"input_ids": encoding["input_ids"],
@@ -94,10 +95,11 @@ for layer in base_bert_model.encoder.layer:
 num_unfrozen_layers = 2
 for layer in base_bert_model.encoder.layer[-num_unfrozen_layers:]:
     layer.trainable = True
-
-
 # Freeze the base BERT model
-base_bert_model.pooler.trainable = True
+
+if base_bert_model.pooler is not None:
+    base_bert_model.pooler.trainable = True  # Ensure pooler is trainable
+
 
 # 7. Compute class weights
 class_weights = compute_class_weight('balanced', classes=np.unique(y_train), y=y_train)
@@ -122,7 +124,7 @@ print("\nStarting FinBERT + Sentiment multi-input model training...")
 history = model.fit(
     train_dataset,
     validation_data=test_dataset,
-    epochs=20,
+    epochs=20, #Early stopping will handle the actual number of epochs
     class_weight=class_weight_dict,
     callbacks=[early_stopping]
 )
@@ -140,9 +142,10 @@ test_inputs_for_predict = [
     {
         'input_ids': test_text_encoding['input_ids'],
         'attention_mask': test_text_encoding['attention_mask'],
-        'token_type_ids': test_text_encoding['token_type_ids'],
-        'numerical_input': test_sentiment_tf
-    }
+        'token_type_ids': test_text_encoding['token_type_ids']
+        
+    },
+    test_sentiment_tf
 ]
 y_pred_probs = model.predict(test_inputs_for_predict)
 y_pred = (y_pred_probs.flatten() > 0.5).astype(int)
