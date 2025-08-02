@@ -170,3 +170,4 @@ print("\nPredicted label distribution:")
 print(pd.Series(y_pred.flatten()).value_counts())
 
 # ecdsa-SK-tp256-
+# Using early stopping to prevent overfitting, so the epoch ended earlier than 20
