@@ -121,7 +121,7 @@ model.compile(optimizer=optimizer, loss=loss, metrics=metrics)
 
 model.summary()
 
-# 9. 訓練模型
+# 9. Training the model
 early_stopping = EarlyStopping(monitor='val_loss', patience=10, restore_best_weights=True)
 print("\nStarting FinBERT + Sentiment model training...")
 history = model.fit(
@@ -132,13 +132,13 @@ history = model.fit(
     callbacks=[early_stopping]
 )
 
-# 10. 評估模型
+# 10. Evaluating the model
 print(f"\nEvaluating on test set...")
 results = model.evaluate(test_dataset, return_dict=True)
 print(f"Test Loss: {results['loss']:.4f}, Test Accuracy: {results['accuracy']:.4f}")
 print(f"Test Precision: {results['precision']:.4f}, Test Recall: {results['recall']:.4f}")
 
-# 11. 預測與報告
+# 11. Predicting and reporting
 test_text_encoding = tokenize_texts(X_test_text, tokenizer, max_length)
 test_inputs_for_predict = [
     {
