@@ -14,21 +14,14 @@ df['Date'] = pd.to_datetime(df['Date'])
 df['Close'] = df['Close'].astype(str).str.replace(',', '', regex=False)
 df['Close'] = pd.to_numeric(df['Close'], errors='coerce')
 
-# Remove rows with missing values for key features before calculating technical indicators
-df = df.dropna(subset=['title_clean', 'label', 'Close'])
+# Ensure all essential features are available, including the new sentiment score
+df = df.dropna(subset=['title_clean', 'label', 'Close', 'sentiment_score_z'])
 
-# Calculate technical indicators
-df['MA_5'] = df['Close'].rolling(window=5).mean()
-df['MA_20'] = df['Close'].rolling(window=20).mean()
-df['Momentum_1d'] = df['Close'].diff()
-df['Momentum_5d'] = df['Close'].diff(periods=5)
-
-# Remove rows with NaNs introduced by indicator calculations
-df = df.dropna()
+# We are not computing technical indicators here since this experiment excludes them
 
 X_text = df['title_clean'].tolist()
-# Key update: Removed 'sentiment_score_z' from numerical features
-X_numerical = df[['MA_5', 'MA_20', 'Momentum_1d', 'Momentum_5d']].values.astype(np.float32)
+# Key modification: only keep 'sentiment_score_z' as the numerical feature
+X_numerical = df[['sentiment_score_z']].values.astype(np.float32)
 y = df['label'].tolist()
 
 # --- 2. Split into training and testing sets ---
@@ -38,7 +31,7 @@ y_train, y_test = train_test_split(
     X_text, X_numerical, y, test_size=0.2, random_state=42, stratify=y
 )
 
-# --- 3. Initialize FinBERT tokenizer and model ---
+# --- 3. Initialize FinBERT Tokenizer and Model ---
 model_name = 'ProsusAI/finbert'
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 base_bert_model_for_features = TFAutoModelForSequenceClassification.from_pretrained(
@@ -75,7 +68,7 @@ def create_multi_input_tf_dataset(texts, numerical_features, labels, tokenizer, 
 train_dataset = create_multi_input_tf_dataset(X_train_text, X_train_numerical, y_train, tokenizer, batch_size=16, shuffle=True)
 test_dataset = create_multi_input_tf_dataset(X_test_text, X_test_numerical, y_test, tokenizer, batch_size=16, shuffle=False)
 
-# --- 6. Build multi-input Keras model ---
+# --- 6. Build Multi-Input Keras Model ---
 input_ids = tf.keras.Input(shape=(max_length,), dtype=tf.int32, name='input_ids')
 attention_mask = tf.keras.Input(shape=(max_length,), dtype=tf.int32, name='attention_mask')
 token_type_ids = tf.keras.Input(shape=(max_length,), dtype=tf.int32, name='token_type_ids')
@@ -89,7 +82,7 @@ bert_output_lambda = tf.keras.layers.Lambda(
     output_shape=(768,)
 )([input_ids, attention_mask, token_type_ids])
 
-# The numerical input layer shape adapts automatically to 4 technical indicators
+# Numerical input shape will automatically adapt to the new feature dimension (only 1 sentiment score)
 numerical_input = tf.keras.Input(shape=(X_numerical.shape[1],), dtype=tf.float32, name='numerical_input')
 concatenated_features = tf.keras.layers.concatenate([bert_output_lambda, numerical_input])
 x = tf.keras.layers.Dense(128, activation='relu')(concatenated_features)
@@ -105,11 +98,11 @@ model = tf.keras.Model(
     outputs=output
 )
 
-# Freeze most of the BERT encoder layers
+# Freeze most BERT layers
 for layer in base_bert_model.encoder.layer:
     layer.trainable = False
 
-# Unfreeze the last few layers for fine-tuning
+# Fine-tune the last few layers
 num_unfrozen_layers = 3
 for layer in base_bert_model.encoder.layer[-num_unfrozen_layers:]:
     layer.trainable = True
@@ -117,12 +110,12 @@ for layer in base_bert_model.encoder.layer[-num_unfrozen_layers:]:
 if base_bert_model.pooler is not None:
     base_bert_model.pooler.trainable = True
 
-# --- 7. Compute class weights ---
+# --- 7. Compute Class Weights ---
 class_weights = compute_class_weight('balanced', classes=np.unique(y_train), y=y_train)
 class_weight_dict = dict(enumerate(class_weights))
 print("Class weights:", class_weight_dict)
 
-# --- 8. Compile model ---
+# --- 8. Compile Model ---
 optimizer = tf.keras.optimizers.Adam(learning_rate=1e-5)
 loss = tf.keras.losses.BinaryCrossentropy()
 metrics = [
@@ -134,9 +127,9 @@ model.compile(optimizer=optimizer, loss=loss, metrics=metrics)
 
 model.summary()
 
-# --- 9. Train the model ---
+# --- 9. Train the Model ---
 early_stopping = EarlyStopping(monitor='val_loss', patience=10, restore_best_weights=True)
-print("\nStarting FinBERT + Technical Indicators (without Sentiment) model training...")
+print("\nStarting FinBERT + Sentiment model training...")
 history = model.fit(
     train_dataset,
     validation_data=test_dataset,
@@ -145,13 +138,13 @@ history = model.fit(
     callbacks=[early_stopping]
 )
 
-# --- 10. Evaluate the model ---
+# --- 10. Evaluate the Model ---
 print(f"\nEvaluating on test set...")
 results = model.evaluate(test_dataset, return_dict=True)
 print(f"Test Loss: {results['loss']:.4f}, Test Accuracy: {results['accuracy']:.4f}")
 print(f"Test Precision: {results['precision']:.4f}, Test Recall: {results['recall']:.4f}")
 
-# --- 11. Predict and generate report ---
+# --- 11. Predict and Report ---
 test_text_encoding = tokenize_texts(X_test_text, tokenizer, max_length)
 test_inputs_for_predict = [
     {
@@ -165,9 +158,10 @@ y_pred_probs = model.predict(test_inputs_for_predict)
 y_pred = (y_pred_probs.flatten() > 0.5).astype(int)
 y_true = np.array(y_test)
 
-print("\n=== FinBERT + Technical Indicators (without Sentiment) Classification Report ===")
+print("\n=== FinBERT + Sentiment (without Technical Indicators) Classification Report ===")
 print(classification_report(y_true, y_pred))
-print("\n=== FinBERT + Technical Indicators (without Sentiment) Accuracy Score ===")
+print("\n=== FinBERT + Sentiment (without Technical Indicators) Accuracy Score ===")
 print(accuracy_score(y_true, y_pred))
 print("\nPredicted label distribution:")
 print(pd.Series(y_pred.flatten()).value_counts())
+

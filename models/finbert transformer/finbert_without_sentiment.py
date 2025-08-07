@@ -8,37 +8,37 @@ import tensorflow as tf
 from transformers import AutoTokenizer, TFAutoModelForSequenceClassification
 from tensorflow.keras.callbacks import EarlyStopping
 
-# --- 1. 載入資料 ---
+# --- 1. Load the data ---
 df = pd.read_csv("data/processed/Merged_News_and_NASDAQ_Data_Extended_With_Sentiment.csv")
 df['Date'] = pd.to_datetime(df['Date'])
 df['Close'] = df['Close'].astype(str).str.replace(',', '', regex=False)
 df['Close'] = pd.to_numeric(df['Close'], errors='coerce')
 
-# 在計算技術指標前，移除包含關鍵特徵的空值
+# Remove rows with missing values for key features before calculating technical indicators
 df = df.dropna(subset=['title_clean', 'label', 'Close'])
 
-# 計算技術指標
+# Calculate technical indicators
 df['MA_5'] = df['Close'].rolling(window=5).mean()
 df['MA_20'] = df['Close'].rolling(window=20).mean()
 df['Momentum_1d'] = df['Close'].diff()
 df['Momentum_5d'] = df['Close'].diff(periods=5)
 
-# 移除因計算技術指標而產生的 NaN
+# Remove rows with NaNs introduced by indicator calculations
 df = df.dropna()
 
 X_text = df['title_clean'].tolist()
-# 關鍵修正：這裡的數值特徵移除了 'sentiment_score_z'
+# Key update: Removed 'sentiment_score_z' from numerical features
 X_numerical = df[['MA_5', 'MA_20', 'Momentum_1d', 'Momentum_5d']].values.astype(np.float32)
 y = df['label'].tolist()
 
-# 2. 切分訓練與測試集
+# --- 2. Split into training and testing sets ---
 X_train_text, X_test_text, \
 X_train_numerical, X_test_numerical, \
 y_train, y_test = train_test_split(
     X_text, X_numerical, y, test_size=0.2, random_state=42, stratify=y
 )
 
-# 3. 初始化 FinBERT Tokenizer 和 TFAutoModelForSequenceClassification
+# --- 3. Initialize FinBERT tokenizer and model ---
 model_name = 'ProsusAI/finbert'
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 base_bert_model_for_features = TFAutoModelForSequenceClassification.from_pretrained(
@@ -62,13 +62,12 @@ def create_multi_input_tf_dataset(texts, numerical_features, labels, tokenizer, 
     numerical_tf = tf.convert_to_tensor(numerical_features, dtype=tf.float32)
     labels_tf = tf.convert_to_tensor(labels, dtype=tf.float32)
     
-    dataset = tf.data.Dataset.from_tensor_slices((
-        ({"input_ids": encoding["input_ids"],
-          "attention_mask": encoding["attention_mask"],
-          "token_type_ids": encoding["token_type_ids"]},
-         numerical_tf),
-        labels_tf
-    ))
+    dataset = tf.data.Dataset.from_tensor_slices(({
+        "input_ids": encoding["input_ids"],
+        "attention_mask": encoding["attention_mask"],
+        "token_type_ids": encoding["token_type_ids"]
+    }, numerical_tf), labels_tf)
+    
     if shuffle:
         dataset = dataset.shuffle(buffer_size=len(texts))
     return dataset.batch(batch_size).prefetch(tf.data.AUTOTUNE)
@@ -76,7 +75,7 @@ def create_multi_input_tf_dataset(texts, numerical_features, labels, tokenizer, 
 train_dataset = create_multi_input_tf_dataset(X_train_text, X_train_numerical, y_train, tokenizer, batch_size=16, shuffle=True)
 test_dataset = create_multi_input_tf_dataset(X_test_text, X_test_numerical, y_test, tokenizer, batch_size=16, shuffle=False)
 
-# 6. 建立多輸入 Keras 模型
+# --- 6. Build multi-input Keras model ---
 input_ids = tf.keras.Input(shape=(max_length,), dtype=tf.int32, name='input_ids')
 attention_mask = tf.keras.Input(shape=(max_length,), dtype=tf.int32, name='attention_mask')
 token_type_ids = tf.keras.Input(shape=(max_length,), dtype=tf.int32, name='token_type_ids')
@@ -90,7 +89,7 @@ bert_output_lambda = tf.keras.layers.Lambda(
     output_shape=(768,)
 )([input_ids, attention_mask, token_type_ids])
 
-# 數值輸入層的形狀會自動適應 X_numerical 的新維度 (4個技術指標)
+# The numerical input layer shape adapts automatically to 4 technical indicators
 numerical_input = tf.keras.Input(shape=(X_numerical.shape[1],), dtype=tf.float32, name='numerical_input')
 concatenated_features = tf.keras.layers.concatenate([bert_output_lambda, numerical_input])
 x = tf.keras.layers.Dense(128, activation='relu')(concatenated_features)
@@ -98,12 +97,19 @@ x = tf.keras.layers.Dropout(0.3)(x)
 output = tf.keras.layers.Dense(1, activation='sigmoid')(x)
 
 model = tf.keras.Model(
-    inputs=[{'input_ids': input_ids, 'attention_mask': attention_mask, 'token_type_ids': token_type_ids}, numerical_input],
+    inputs=[{
+        'input_ids': input_ids,
+        'attention_mask': attention_mask,
+        'token_type_ids': token_type_ids
+    }, numerical_input],
     outputs=output
 )
+
+# Freeze most of the BERT encoder layers
 for layer in base_bert_model.encoder.layer:
     layer.trainable = False
 
+# Unfreeze the last few layers for fine-tuning
 num_unfrozen_layers = 3
 for layer in base_bert_model.encoder.layer[-num_unfrozen_layers:]:
     layer.trainable = True
@@ -111,12 +117,12 @@ for layer in base_bert_model.encoder.layer[-num_unfrozen_layers:]:
 if base_bert_model.pooler is not None:
     base_bert_model.pooler.trainable = True
 
-# 7. 計算類別權重
+# --- 7. Compute class weights ---
 class_weights = compute_class_weight('balanced', classes=np.unique(y_train), y=y_train)
 class_weight_dict = dict(enumerate(class_weights))
 print("Class weights:", class_weight_dict)
 
-# 8. 編譯模型
+# --- 8. Compile model ---
 optimizer = tf.keras.optimizers.Adam(learning_rate=1e-5)
 loss = tf.keras.losses.BinaryCrossentropy()
 metrics = [
@@ -128,7 +134,7 @@ model.compile(optimizer=optimizer, loss=loss, metrics=metrics)
 
 model.summary()
 
-# 9. 訓練模型
+# --- 9. Train the model ---
 early_stopping = EarlyStopping(monitor='val_loss', patience=10, restore_best_weights=True)
 print("\nStarting FinBERT + Technical Indicators (without Sentiment) model training...")
 history = model.fit(
@@ -139,13 +145,13 @@ history = model.fit(
     callbacks=[early_stopping]
 )
 
-# 10. 評估模型
+# --- 10. Evaluate the model ---
 print(f"\nEvaluating on test set...")
 results = model.evaluate(test_dataset, return_dict=True)
 print(f"Test Loss: {results['loss']:.4f}, Test Accuracy: {results['accuracy']:.4f}")
 print(f"Test Precision: {results['precision']:.4f}, Test Recall: {results['recall']:.4f}")
 
-# 11. 預測與報告
+# --- 11. Predict and generate report ---
 test_text_encoding = tokenize_texts(X_test_text, tokenizer, max_length)
 test_inputs_for_predict = [
     {
