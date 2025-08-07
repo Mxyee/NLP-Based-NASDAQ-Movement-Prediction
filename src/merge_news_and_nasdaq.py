@@ -20,4 +20,4 @@ merged = pd.merge(news, market, left_on = 'market_date', right_on = 'Date', how 
 merged = merged.drop(columns=['merged_date', 'date_raw', 'title','date'])
 final = merged[['Date', 'title_clean', 'market_date', 'Open', 'Close', 'label']]
 # Save final cleaned merged data
-final.to_csv('news_market_merged.csv', index=False)
+final.to_csv('data/processed/news_market_merged.csv', index=False)

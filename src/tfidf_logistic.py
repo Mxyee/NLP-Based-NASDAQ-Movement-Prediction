@@ -20,7 +20,7 @@ from nltk.tokenize import word_tokenize
 
 # --- 1. 讀取數據 ---
 # 確保讀取的是包含 'sentiment_score_z' 欄位的 CSV 文件
-df = pd.read_csv("Merged_News_and_NASDAQ_Data_Extended_With_Sentiment.csv")
+df = pd.read_csv("data/processed/Merged_News_and_NASDAQ_Data_Extended_With_Sentiment.csv")
 
 # 檢查欄位，確認 'title_clean' 和 'sentiment_score_z' 存在
 print("DataFrame Columns:", df.columns.tolist())

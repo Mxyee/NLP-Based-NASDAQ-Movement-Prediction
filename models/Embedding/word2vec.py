@@ -16,7 +16,7 @@ nltk.download('punkt', quiet=True)
 nltk.download('wordnet', quiet=True)
 
 # 1. Load data
-df = pd.read_csv("Merged_News_and_NASDAQ_Data_Extended_With_Sentiment.csv")
+df = pd.read_csv("data/processed/Merged_News_and_NASDAQ_Data_Extended_With_Sentiment.csv")
 df = df.dropna(subset=['title_clean', 'sentiment_score_z', 'label'])
 
 print("DataFrame Columns:", df.columns.tolist())

@@ -7,7 +7,7 @@ keywords = ["Nasdaq", "tech stocks", "stock market"]
 
 # Building RSS URL
 rss_urls = [
-    "https://news.google.com/rss/search?q=" + quote(f"{k} after:2025-03-01 before:2025-06-22") +
+    "https://news.google.com/rss/search?q=" + quote(f"{k} after:2025-03-01 before:2025-08-07") +
     "&hl=en-US&gl=US&ceid=US:en"
     for k in keywords
 ]
@@ -25,5 +25,5 @@ for url in rss_urls:
 # Sort out DataFrame and remove duplicates
 df = pd.DataFrame(records).drop_duplicates(subset=["date", "title"])
 df.sort_values("date", inplace=True)
-df.to_csv("google_news_rss.csv", index=False, encoding="utf-8-sig")
+df.to_csv("data/raw/google_news_rss.csv", index=False, encoding="utf-8-sig")
 print("Finished，Total caught", len(df), "news data")

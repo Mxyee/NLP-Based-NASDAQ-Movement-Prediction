@@ -2,8 +2,8 @@ import pandas as pd
 from dateutil import parser
 
 # Input and output paths
-input_file = "all_raw_news.csv"
-output_file = "all_news_cleaned_sorted.csv"
+input_file = "data/raw/all_raw_news.csv"
+output_file = "data/processed/all_news_cleaned_sorted.csv"
 
 # Read the input CSV file
 df = pd.read_csv(input_file)

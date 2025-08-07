@@ -9,7 +9,7 @@ from transformers import AutoTokenizer, TFAutoModelForSequenceClassification
 from tensorflow.keras.callbacks import EarlyStopping
 
 # --- 1. 載入資料 ---
-df = pd.read_csv("Merged_News_and_NASDAQ_Data_Extended_With_Sentiment.csv")
+df = pd.read_csv("data/processed/Merged_News_and_NASDAQ_Data_Extended_With_Sentiment.csv")
 df['Date'] = pd.to_datetime(df['Date'])
 df['Close'] = df['Close'].astype(str).str.replace(',', '', regex=False)
 df['Close'] = pd.to_numeric(df['Close'], errors='coerce')

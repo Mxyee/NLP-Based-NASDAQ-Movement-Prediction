@@ -9,7 +9,7 @@ from transformers import AutoTokenizer, TFAutoModelForSequenceClassification
 from tensorflow.keras.callbacks import EarlyStopping
 
 # --- 1. Load data ---
-df = pd.read_csv("Merged_News_and_NASDAQ_Data_Extended_With_Sentiment.csv")
+df = pd.read_csv("data/processed/Merged_News_and_NASDAQ_Data_Extended_With_Sentiment.csv")
 df['Date'] = pd.to_datetime(df['Date'])
 df['Close'] = df['Close'].astype(str).str.replace(',', '')
 #Change Close to numeric, errors='coerce' will convert non-numeric values to NaN

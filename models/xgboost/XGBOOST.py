@@ -20,7 +20,7 @@ from nltk.tokenize import word_tokenize
 
 # --- 1. Load Data ---
 # Make sure the CSV contains 'sentiment_score_z' column
-df = pd.read_csv("Merged_News_and_NASDAQ_Data_Extended_With_Sentiment.csv")
+df = pd.read_csv("data/processed/Merged_News_and_NASDAQ_Data_Extended_With_Sentiment.csv")
 
 # Verify that 'title_clean' and 'sentiment_score_z' exist
 print("DataFrame Columns:", df.columns.tolist())

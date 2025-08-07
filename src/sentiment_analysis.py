@@ -53,6 +53,6 @@ news_df['sentiment_score'] = news_df['title_clean'].apply(lambda x: calculate_se
 scaled = scalar.fit_transform(news_df[['sentiment_score']])
 news_df['sentiment_score_z'] = 2 * (scaled - 0.5)
 news_df['sentiment_score_z'] = news_df['sentiment_score_z'].round(2)
-news_df.to_csv('Merged_News_and_NASDAQ_Data_Extended_With_Sentiment.csv', index=False)
+news_df.to_csv('data/processed/Merged_News_and_NASDAQ_Data_Extended_With_Sentiment.csv', index=False)
 
 print("Already finished the Merged_News_and_NASDAQ_Data_Extended_With_Sentiment.csv")
