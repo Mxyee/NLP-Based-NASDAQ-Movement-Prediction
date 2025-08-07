@@ -10,7 +10,7 @@ def load_sentiment_data(filepath):
     positive_words = set(df[df['Positive']!=0]['Word'].str.upper())
     negative_words = set(df[df['Negative']!=0]['Word'].str.upper())
     return positive_words, negative_words
-master_dict_path = 'sentiments_lexicon/Loughran-McDonald_MasterDictionary_1993-2024.csv'
+master_dict_path = 'resources_lexicon/Loughran-McDonald_MasterDictionary_1993-2024.csv'
 
 positive_words, negative_words = load_sentiment_data(master_dict_path)
 print(f"Positive words count: {len(positive_words)}")
