@@ -5,11 +5,11 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report, accuracy_score
-from scipy.sparse import hstack # 導入 hstack 用於合併稀疏和稠密特徵
-from collections import Counter # 用於檢查類別分佈
-from sklearn.preprocessing import StandardScaler # 假設 sentiment_score_z 是用這個處理的
+from scipy.sparse import hstack  # For combining sparse and dense features
+from collections import Counter  # To inspect label distribution
+from sklearn.preprocessing import StandardScaler  # Assuming sentiment_score_z is scaled with this
 
-# 確保 NLTK 資源已下載
+# Ensure NLTK resources are downloaded
 nltk.download('stopwords', quiet=True)
 nltk.download('punkt', quiet=True)
 nltk.download('wordnet', quiet=True)
@@ -18,18 +18,18 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
 
-# --- 1. 讀取數據 ---
-# 確保讀取的是包含 'sentiment_score_z' 欄位的 CSV 文件
+# --- 1. Load data ---
+# Make sure the CSV file includes the 'sentiment_score_z' column
 df = pd.read_csv("data/processed/Merged_News_and_NASDAQ_Data_Extended_With_Sentiment.csv")
 
-# 檢查欄位，確認 'title_clean' 和 'sentiment_score_z' 存在
+# Check if 'title_clean' and 'sentiment_score_z' columns exist
 print("DataFrame Columns:", df.columns.tolist())
 
-# 確保沒有缺失值，特別是對於我們將要使用的特徵和標籤
+# Ensure no missing values in the key features and target label
 df = df.dropna(subset=['title_clean', 'sentiment_score_z', 'label'])
-print(f"數據清洗後剩餘樣本數: {len(df)}")
+print(f"Number of samples after data cleaning: {len(df)}")
 
-# --- 2. 文本預處理 (用於 TF-IDF) ---
+# --- 2. Text preprocessing (for TF-IDF) ---
 stop_words = set(stopwords.words('english'))
 lemmatizer = WordNetLemmatizer()
 
@@ -44,41 +44,40 @@ def preprocess_text_for_tfidf(text):
 
 df["title_cleaned_for_tfidf"] = df["title_clean"].apply(preprocess_text_for_tfidf)
 
-# --- 3. TF-IDF 特徵提取 ---
-tfidf_vectorizer = TfidfVectorizer(max_features=5000) # 可以調整 max_features
+# --- 3. TF-IDF feature extraction ---
+tfidf_vectorizer = TfidfVectorizer(max_features=5000)  # You can adjust max_features
 X_tfidf = tfidf_vectorizer.fit_transform(df["title_cleaned_for_tfidf"])
 
-# --- 4. 準備情感分數特徵 ---
-# 這裡直接使用 sentiment_score_z，假設它已經被 StandardScaler 處理過
-# 如果沒有，你需要在這裡添加 StandardScaler 的步驟
-# 例如：
+# --- 4. Prepare sentiment score feature ---
+# Directly use sentiment_score_z assuming it has already been standardized
+# If not, add the StandardScaler step here like:
 # scaler_z = StandardScaler()
 # df['sentiment_score_z'] = scaler_z.fit_transform(df[['sentiment_score']])
-X_sentiment_z = df['sentiment_score_z'].values.reshape(-1, 1) # 轉換為2D數組
+X_sentiment_z = df['sentiment_score_z'].values.reshape(-1, 1)  # Convert to 2D array
 
-# --- 5. 合併所有特徵 ---
-# 使用 hstack 將稀疏的 TF-IDF 特徵和稠密的縮放情感分數特徵水平堆疊
+# --- 5. Combine all features ---
+# Use hstack to combine sparse TF-IDF features with dense scaled sentiment score feature
 X_combined = hstack([X_tfidf, X_sentiment_z])
 
-# --- 6. 定義目標變數 ---
+# --- 6. Define target variable ---
 y = df['label']
 
-# --- 7. 檢查類別分佈 (非常重要！) ---
-print("\n原始標籤分佈:")
+# --- 7. Check class distribution (very important!) ---
+print("\nOriginal label distribution:")
 print(y.value_counts())
-print(f"多數類佔比: {y.value_counts().max() / len(y):.2f}")
+print(f"Majority class ratio: {y.value_counts().max() / len(y):.2f}")
 
-# --- 8. 劃分訓練集和測試集 ---
-# 使用 train_test_split 作為基線的快速測試。
+# --- 8. Split training and test sets ---
+# Use train_test_split for quick baseline testing
 X_train, X_test, y_train, y_test = train_test_split(X_combined, y, test_size=0.2, random_state=42)
 
-# --- 9. 建立並訓練 Logistic Regression 模型 ---
-# 解決類別不平衡問題：使用 class_weight='balanced'
-print("\n訓練帶有 class_weight='balanced' 的 Logistic Regression 模型...")
-model = LogisticRegression(max_iter=1000, class_weight='balanced') # 加入 class_weight='balanced'
+# --- 9. Build and train Logistic Regression model ---
+# Handle class imbalance using class_weight='balanced'
+print("\nTraining Logistic Regression model with class_weight='balanced'...")
+model = LogisticRegression(max_iter=1000, class_weight='balanced')
 model.fit(X_train, y_train)
 
-# --- 10. 預測與評估 ---
+# --- 10. Prediction and evaluation ---
 y_pred = model.predict(X_test)
 
 print("\n=== Logistic Regression (TF-IDF + Scaled Sentiment) Classification Report ===")
@@ -87,6 +86,6 @@ print(classification_report(y_test, y_pred))
 print("\n=== Accuracy Score ===")
 print(accuracy_score(y_test, y_pred))
 
-# 額外檢查：模型預測的類別分佈
-print("\n模型預測的測試集標籤分佈:")
+# Additional check: Distribution of predicted labels
+print("\nPredicted label distribution on the test set:")
 print(pd.Series(y_pred).value_counts())
