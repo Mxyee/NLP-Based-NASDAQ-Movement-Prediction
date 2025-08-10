@@ -175,14 +175,15 @@ from pathlib import Path as _Path
 import json as _json
 
 MODELS_DIR = _Path("models")
-SAVEDMODEL_DIR = MODELS_DIR / "finbert_multi_input"   # read by demo/predict_today.py
+SAVEDMODEL_DIR = MODELS_DIR / "finbert_multi_input.keras"   # read by demo/predict_today.py
 H5_PATH = MODELS_DIR / "finbert_multi_input.h5"
+METADATA_PATH = MODELS_DIR / "demo_metadata.json"
 
 MODELS_DIR.mkdir(parents=True, exist_ok=True)
 
 # Save TensorFlow SavedModel
-model.save(str(SAVEDMODEL_DIR)+ ".keras")
-print(f"\n SavedModel written to: {SAVEDMODEL_DIR}.keras")
+model.save(str(SAVEDMODEL_DIR))
+print(f"\n SavedModel written to: {SAVEDMODEL_DIR}")
 
 # Also save H5 copy
 model.save(str(H5_PATH))
@@ -194,8 +195,7 @@ metadata = {
     "text_feature": "title_clean",
     "threshold": 0.5  # 1 if prob_up >= threshold else 0
 }
-(SAVEDMODEL_DIR / "demo_metadata.json").write_text(_json.dumps(metadata, indent=2), encoding="utf-8")
-print(" Metadata saved alongside the model (demo_metadata.json)")
-
+METADATA_PATH.write_text(_json.dumps(metadata, indent=2), encoding="utf-8")
+print(f"Metadata saved to: {METADATA_PATH}")
 # ecdsa-SK-tp256-
 # Using early stopping to prevent overfitting, so the epoch ended earlier than 20
