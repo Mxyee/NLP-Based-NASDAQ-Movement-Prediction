@@ -1,13 +1,20 @@
 import feedparser
 import pandas as pd
 from urllib.parse import quote
+from datetime import datetime, timezone, timedelta
 
 # Set Google News RSS Keywords
 keywords = ["Nasdaq", "tech stocks", "stock market"]
+windows_day = 3
+
+today = datetime.now(timezone.utc).utc
+after = (today - timedelta(days=windows_day)).isformat()
+before = (today + timedelta(days=1)).isformat()
+
 
 # Building RSS URL
 rss_urls = [
-    "https://news.google.com/rss/search?q=" + quote(f"{k} after:2025-03-01 before:2025-08-07") +
+    "https://news.google.com/rss/search?q=" + quote(f"{k} after:{after} before:{before}") +
     "&hl=en-US&gl=US&ceid=US:en"
     for k in keywords
 ]
