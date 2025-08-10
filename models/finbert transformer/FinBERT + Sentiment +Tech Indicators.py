@@ -181,8 +181,8 @@ H5_PATH = MODELS_DIR / "finbert_multi_input.h5"
 MODELS_DIR.mkdir(parents=True, exist_ok=True)
 
 # Save TensorFlow SavedModel
-model.save(str(SAVEDMODEL_DIR))
-print(f"\n SavedModel written to: {SAVEDMODEL_DIR}")
+model.save(str(SAVEDMODEL_DIR)+ ".keras")
+print(f"\n SavedModel written to: {SAVEDMODEL_DIR}.keras")
 
 # Also save H5 copy
 model.save(str(H5_PATH))
