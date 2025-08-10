@@ -1,8 +1,9 @@
 import pandas as pd
 
-news = pd.read_csv('all_news_cleaned_sorted.csv')
-market = pd.read_csv('nasdaq_labels.csv')
+news = pd.read_csv('data/processed/all_news_cleaned_sorted.csv')
+market = pd.read_csv('data/processed/nasdaq_labels.csv')
 print(news.columns)
+# Ensure date columns are in datetime format
 news['date'] = pd.to_datetime(news['date'])
 market['Date'] = pd.to_datetime(market['Date'], dayfirst=True)
 
