@@ -31,9 +31,6 @@ df['title_clean'] = df['title'].str.replace(r"^b[\"']", "", regex=True).str.repl
 # Filter out empty or short titles
 df = df[df['title_clean'].str.len() > 15]
 
-# Remove duplicate titles
-
-
 
 # Sort by date (NaT comes last)
 df = df.sort_values(by='date').reset_index(drop=True)
