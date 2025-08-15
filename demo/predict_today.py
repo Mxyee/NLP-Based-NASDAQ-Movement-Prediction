@@ -34,7 +34,7 @@ from tensorflow.keras.models import load_model, Model
 from tensorflow.keras.layers import Input, Dense, Dropout, Concatenate, Lambda
 from tensorflow.keras.optimizers import Adam
 import keras  # for enable_unsafe_deserialization
-from transformers import AutoTokenizer, TFAutoModel, TFAutoModelForSequenceClassification, pipeline
+from transformers import AutoTokenizer, TFAutoModel, TFAutoModelForSequenceClassification
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import f1_score
 import joblib
@@ -513,9 +513,9 @@ if __name__ == "__main__":
             log[c] = np.nan
     
     if out_path.exists():
-        log[keep_cols].to_csv(out_path, mode = 'a', header = False,index = False, encoding = "utf-8")
+        log[keep_cols].to_csv(out_path, mode = 'a', header = False,index =False, encoding = "utf-8")
     else:
-        log[keep_cols].to_csv(out_path, mode = "w", header = False,index=False, encoding="utf-8")
+        log[keep_cols].to_csv(out_path, mode = 'w', header = True, index=False, encoding="utf-8")
     print(f"[saved] {out_path}")
 
     # 7) Probe
