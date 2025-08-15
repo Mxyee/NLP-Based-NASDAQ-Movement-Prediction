@@ -86,3 +86,596 @@ pub_time_uk,title,finbert_label,finbert_score,finbert_conf,finbert_score_z,predi
 2025-08-14 07:09:00+01:00,"Stock Market News for Aug 14, 2025 - Nasdaq",neutral,0,0.0,0.09687387796621443,0.48126548528671265,Up
 2025-08-14 11:12:07+01:00,Health Check: How Prudently Does Fortrea Holdings (NASDAQ:FTRE) Use Debt? - simplywall.st,neutral,0,0.0,0.09687387796621443,0.48126548528671265,Up
 2025-08-14 13:23:58+01:00,Nasdaq Composite Live: Interest Rate Cut Odds Now up to 97.8% - 24/7 Wall St.,negative,-1,0.08333333333333333,-1.3077973525438948,0.48126548528671265,Up
+2025-08-14 16:31:11+01:00,"Stock market today: Dow, S&P 500, Nasdaq slipped after PPI inflation comes in much hotter than expected - uk.finance.yahoo.com",neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 16:31:00+01:00,"Stock Market Today: Dow, S&P 500, Nasdaq modestly lower after hot PPI reading; small caps retreat - MarketWatch",neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 15:58:00+01:00,"Stock Market Today: Dow, S&P 500, Nasdaq Open Down After PPI Inflation Report; Bullish, Nvidia, AMD, More Movers - Barron's",neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-13 21:03:45+01:00,"Dow rallies 400 points for a second day, S&P 500 closes at another record high - CNBC",neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-13 23:18:00+01:00,Chinese Stocks Lead Stock Market Jump As This Small-Cap Index Breaks Out. Did The Nasdaq Really Suffer Stalling? - Investor's Business Daily,negative,-2,0.09523809523809523,-2.7069429449014755,0.5095080733299255,Up
+2025-08-13 23:24:53+01:00,"Markets News, Aug. 13, 2025: S&P 500, Nasdaq Hit New Highs as Stock Market Rally Continues; Dow Nears First Record Since December - Investopedia",neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-13 17:32:19+01:00,"Stock market today: Dow pops, S&P 500 and Nasdaq waver as Fed rate cut bets surge - uk.finance.yahoo.com",negative,-1,0.0625,-1.2890204499530835,0.5095080733299255,Up
+2025-08-13 23:37:20+01:00,"S&P 500, Nasdaq hit new closing highs on rate cut hopes - Reuters",negative,-2,0.18181818181818182,-2.7069429449014755,0.5095080733299255,Up
+2025-08-14 15:11:02+01:00,Kyivstar edges closer to Nasdaq listing via SPAC merger with Cohen Circle - Data Center Dynamics,neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 09:59:00+01:00,European Shares Mostly Higher In Cautious Trade; FTSE 100 Underperforms - Nasdaq,negative,-1,0.1,-1.2890204499530835,0.5095080733299255,Up
+2025-08-14 12:14:00+01:00,RedHill Biopharma receives Nasdaq extension to regain compliance by October - Investing.com UK,positive,1,0.08333333333333333,1.5468245399437002,0.5095080733299255,Up
+2025-08-14 16:32:23+01:00,SanDisk Stock (NASDAQ: SNDK) Hovering Below Resistance Into Earnings - AskTraders.com,neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 15:27:10+01:00,TeraWulf Stock (NASDAQ: WULF) Surges on AI Hosting Contracts With Fluidstack - AskTraders.com,neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 10:41:00+01:00,DAX Modestly Higher As Investors Focus On Earnings - Nasdaq,neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 04:02:00+01:00,Magnitude International completes $8.8 million IPO on Nasdaq By Investing.com - Investing.com UK,neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 12:37:16+01:00,"Stock market today: Dow, S&P 500, Nasdaq futures flat with PPI looming amid rate-cut fervor - uk.finance.yahoo.com",neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 11:19:00+01:00,"Sensex, Nifty End Little Changed As Traders Eye US-Russia Talks - Nasdaq",neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-13 21:30:30+01:00,"Red Robin (NASDAQ:RRGB) Surprises With Q2 Sales, Stock Soars - uk.finance.yahoo.com",neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 10:00:00+01:00,Is XRP a Buy While It's Below $5? - Nasdaq,neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 10:05:32+01:00,2 Nasdaq 100 Stocks to Research Further and 1 Facing Challenges - Yahoo Finance,neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 12:44:43+01:00,We Think Amdocs' (NASDAQ:DOX) Solid Earnings Are Understated - Yahoo Finance,negative,-1,0.1,-1.2890204499530835,0.5095080733299255,Up
+2025-08-13 20:10:25+01:00,"S&P 500, Nasdaq near record highs on rate cut hopes; Big Tech stocks weaken - Reuters",negative,-2,0.14285714285714285,-2.7069429449014755,0.5095080733299255,Up
+2025-08-13 21:39:00+01:00,"Stock Market Today: Dow Rockets 400 Points; S&P, Nasdaq Extend Rally On Rate Hopes To New Highs; Crypto Stock Catapults - Investor's Business Daily",neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 11:00:00+01:00,Disney Stock: Buy or Sell? - Nasdaq,neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 11:31:59+01:00,Bio-Techne's (NASDAQ:TECH) Soft Earnings Are Actually Better Than They Appear - Yahoo Finance,positive,1,0.08333333333333333,1.5468245399437002,0.5095080733299255,Up
+2025-08-14 11:00:00+01:00,Best Stock to Buy: Novo Nordisk Stock vs. UnitedHealth Stock - Nasdaq,positive,1,0.09090909090909091,1.5468245399437002,0.5095080733299255,Up
+2025-08-13 17:58:06+01:00,"S&P 500, Nasdaq hover near record highs on September rate cut hopes - Reuters",negative,-1,0.08333333333333333,-1.2890204499530835,0.5095080733299255,Up
+2025-08-14 15:55:03+01:00,Tilray Brands Reconfirms Strategy to Regain Nasdaq Compliance - Cannabis Business Times,positive,1,0.09090909090909091,1.5468245399437002,0.5095080733299255,Up
+2025-08-14 12:20:19+01:00,Santech Holdings Limited (NASDAQ:STEC) May Have Run Too Fast Too Soon With Recent 29% Price Plummet - simplywall.st,neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 11:56:35+01:00,We Think Gilead Sciences' (NASDAQ:GILD) Profit Is Only A Baseline For What They Can Achieve - Yahoo Finance,positive,1,0.058823529411764705,1.5468245399437002,0.5095080733299255,Up
+2025-08-13 18:25:22+01:00,HeartFlow's AI-powered medical technology debuts on Nasdaq - NSF - National Science Foundation (.gov),neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 13:24:00+01:00,Zacks Earnings Trends Highlights: Meta Platforms and Alphabet - Nasdaq,neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 11:50:12+01:00,What Is Intchains Group Limited's (NASDAQ:ICG) Share Price Doing? - simplywall.st,neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 15:06:00+01:00,Eltek Q2 Revenue Jumps 20 Percent - Nasdaq,neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 00:15:00+01:00,Japan Stock Market Has Positive Lead For Thursday - Nasdaq,positive,1,0.1111111111111111,1.5468245399437002,0.5095080733299255,Up
+2025-08-14 12:21:04+01:00,Veeco Instruments' (NASDAQ:VECO) Soft Earnings Don't Show The Whole Picture - Yahoo Finance,neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 16:03:49+01:00,"S&P 500, Nasdaq back in the green as Big Tech rides to the rescue - MarketWatch",neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 13:15:00+01:00,Why Advanced Micro Devices (AMD) Stock Soared Wednesday - Nasdaq,neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 12:54:20+01:00,Do These 3 Checks Before Buying Arko Corp. (NASDAQ:ARKO) For Its Upcoming Dividend - simplywall.st,neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-13 22:47:00+01:00,"Nasdaq CEO on IPO market comeback, stock strength and AI adoption - CNBC",positive,1,0.08333333333333333,1.5468245399437002,0.5095080733299255,Up
+2025-08-14 11:36:09+01:00,Weyco Group (NASDAQ:WEYS) Could Be A Buy For Its Upcoming Dividend - simplywall.st,neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 12:02:21+01:00,Tilray Brands Reconfirms Strategy to Regain Nasdaq Compliance; Requests Extension to Meet Listing Requirements - GlobeNewswire,positive,1,0.06666666666666667,1.5468245399437002,0.5095080733299255,Up
+2025-08-14 11:12:08+01:00,"Theravance Biopharma (NASDAQ:TBPH) shareholder returns have been respectable, earning 51% in 1 year - simplywall.st",neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 11:36:09+01:00,Inspired Entertainment's (NASDAQ:INSE) Shareholders May Want To Dig Deeper Than Statutory Profit - simplywall.st,neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 11:50:12+01:00,We Believe CleanSpark's (NASDAQ:CLSK) Earnings Are A Poor Guide For Its Profitability - simplywall.st,neutral,0,0.15384615384615385,0.12890204499530836,0.5095080733299255,Up
+2025-08-13 20:15:36+01:00,"Stock market today: Dow pops, S&P 500 and Nasdaq waver as Fed rate cut bets surge - Yahoo Finance",negative,-1,0.058823529411764705,-1.2890204499530835,0.5095080733299255,Up
+2025-08-14 15:53:03+01:00,BUUU Group begins trading on Nasdaq at $4 per share - Investing.com,neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 02:00:00+01:00,"China Stock Market May Challenge 3,700-Point Level - Nasdaq",negative,-1,0.14285714285714285,-1.2890204499530835,0.5095080733299255,Up
+2025-08-14 11:11:12+01:00,Q2 Rundown: Gilead Sciences (NASDAQ:GILD) Vs Other Therapeutics Stocks - au.finance.yahoo.com,neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-13 22:47:16+01:00,"US stocks close midweek with continued rise; S&P 500, Nasdaq hit new record highs - Anadolu Ajansı",neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 16:11:00+01:00,U.S. Stocks Showing A Lack Of Direction After Early Pullback - Nasdaq,negative,-1,0.09090909090909091,-1.2890204499530835,0.5095080733299255,Up
+2025-08-14 10:01:16+01:00,Reflecting On E-commerce Software Stocks’ Q2 Earnings: VeriSign (NASDAQ:VRSN) - Yahoo Finance,neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 12:29:53+01:00,RedHill Biopharma Granted Nasdaq Compliance Extension - TipRanks,neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 11:26:08+01:00,Odysight.ai (NASDAQ:ODYS investor five-year losses grow to 43% as the stock sheds US$11m this past week - simplywall.st,negative,-1,0.06666666666666667,-1.2890204499530835,0.5095080733299255,Up
+2025-08-14 13:29:03+01:00,Polyrizon regains compliance with Nasdaq listing requirements - Investing.com,positive,1,0.125,1.5468245399437002,0.5095080733299255,Up
+2025-08-14 11:40:12+01:00,There May Be Reason For Hope In Everspin Technologies' (NASDAQ:MRAM) Disappointing Earnings - simplywall.st,negative,-1,0.07692307692307693,-1.2890204499530835,0.5095080733299255,Up
+2025-08-14 14:07:09+01:00,AstroNova's (NASDAQ:ALOT) investors will be pleased with their notable 52% return over the last five years - Yahoo Finance,positive,1,0.058823529411764705,1.5468245399437002,0.5095080733299255,Up
+2025-08-14 13:20:28+01:00,We Think You Can Look Beyond HireQuest's (NASDAQ:HQI) Lackluster Earnings - Yahoo Finance,negative,-1,0.08333333333333333,-1.2890204499530835,0.5095080733299255,Up
+2025-08-14 12:03:10+01:00,Capital Allocation Trends At Jerash Holdings (US) (NASDAQ:JRSH) Aren't Ideal - Yahoo Finance,positive,1,0.08333333333333333,1.5468245399437002,0.5095080733299255,Up
+2025-08-14 15:13:00+01:00,Innovative Solutions Sales Soar 105% - Nasdaq,positive,1,0.2,1.5468245399437002,0.5095080733299255,Up
+2025-08-14 12:10:13+01:00,We Think Bioventus' (NASDAQ:BVS) Robust Earnings Are Conservative - simplywall.st,neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 11:26:08+01:00,"Investors Appear Satisfied With KORU Medical Systems, Inc.'s (NASDAQ:KRMD) Prospects As Shares Rocket 34% - simplywall.st",positive,1,0.07142857142857142,1.5468245399437002,0.5095080733299255,Up
+2025-08-14 11:00:35+01:00,Q2 Earnings Outperformers: Perdoceo Education (NASDAQ:PRDO) And The Rest Of The Education Services Stocks - Yahoo Finance,neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 14:42:43+01:00,US Stock Market Today: S&P 500 Retreats From Record High Nasdaq Falls 64 Points On Producer Inflation Data - NDTV Profit,neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-13 22:12:02+01:00,"Stock market today: Dow jumps 450 points as S&P 500, Nasdaq log back-to-back records on surging Fed rate cut bets - Yahoo Finance",negative,-1,0.05,-1.2890204499530835,0.5095080733299255,Up
+2025-08-14 04:10:06+01:00,Magnitude International completes $8.8 million IPO on Nasdaq - Investing.com,neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 11:04:00+01:00,3 Reasons to Buy Chevron Stock Like There's No Tomorrow - Nasdaq,neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 12:12:02+01:00,Arko's (NASDAQ:ARKO) Weak Earnings May Only Reveal A Part Of The Whole Picture - Yahoo Finance,negative,-1,0.06666666666666667,-1.2890204499530835,0.5095080733299255,Up
+2025-08-14 15:14:00+01:00,"US market today: S&P 500, Nasdaq slip from peaks; Dow down 104 points after hot inflation data - Times of India",neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 10:00:00+01:00,AI Development Is Accelerating: 1 Vanguard ETF to Buy Right Now - Nasdaq,neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 12:20:16+01:00,"Maravai LifeSciences Holdings, Inc. (NASDAQ:MRVI) Just Reported Earnings, And Analysts Cut Their Target Price - simplywall.st",negative,-1,0.06666666666666667,-1.2890204499530835,0.5095080733299255,Up
+2025-08-14 13:32:00+01:00,Unicycive Posts 65% EPS Gain in Q2 - Nasdaq,positive,1,0.16666666666666666,1.5468245399437002,0.5095080733299255,Up
+2025-08-14 12:05:44+01:00,Some Investors May Be Willing To Look Past Verra Mobility's (NASDAQ:VRRM) Soft Earnings - Yahoo Finance,neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 16:49:00+01:00,Stocks Fall Back on Hot PPI Report - Nasdaq,neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 14:32:00+01:00,Oracle To Offer Customers Access To Google's Advanced AI Models - Nasdaq,neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 11:40:13+01:00,Shareholders May Find It Hard To Justify Increasing IceCure Medical Ltd's (NASDAQ:ICCM) CEO Compensation For Now - simplywall.st,neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 12:46:26+01:00,"Harvard Bioscience, Inc. (NASDAQ:HBIO) Just Reported, And Analysts Assigned A US$3.00 Price Target - simplywall.st",neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 13:25:59+01:00,GigaCloud Technology's (NASDAQ:GCT) Earnings Offer More Than Meets The Eye - Yahoo Finance,neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 11:26:10+01:00,"Aardvark Therapeutics, Inc.'s (NASDAQ:AARD) stock price dropped 11% last week; individual investors would not be happy - simplywall.st",negative,-2,0.125,-2.7069429449014755,0.5095080733299255,Up
+2025-08-14 14:38:22+01:00,Microsoft (NASDAQ: MSFT) Stock Price Prediction for 2025: Where Will It Be in 1 Year - 24/7 Wall St.,neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 13:40:44+01:00,Meta Platforms (NASDAQ: META) Stock Price Prediction for 2025: Where Will It Be in 1 Year (Aug 14) - 24/7 Wall St.,neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 11:26:08+01:00,Revenues Working Against Nortech Systems Incorporated's (NASDAQ:NSYS) Share Price - simplywall.st,negative,-1,0.1,-1.2890204499530835,0.5095080733299255,Up
+2025-08-14 12:28:17+01:00,"Papa John's International, Inc. (NASDAQ:PZZA) Goes Ex-Dividend Soon - simplywall.st",neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-13 20:20:00+01:00,Why Eli Lilly Stock Popped Today - Nasdaq,neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 11:12:06+01:00,Gamehaus Holdings Inc. (NASDAQ:GMHS) Might Not Be As Mispriced As It Looks After Plunging 26% - simplywall.st,neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 05:20:00+01:00,"Sensex, Nifty Marginally Higher Ahead Of US-Russia Talks - Nasdaq",neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 10:07:37+01:00,A Look Back at Automation Software Stocks’ Q2 Earnings: Microsoft (NASDAQ:MSFT) Vs The Rest Of The Pack - Yahoo Finance,neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 13:40:51+01:00,Kratos Defense & Security Solutions' (NASDAQ:KTOS) Promising Earnings May Rest On Soft Foundations - Yahoo Finance,neutral,0,0.0,0.12890204499530836,0.5095080733299255,Up
+2025-08-14 16:31:11+01:00,"Stock market today: Dow, S&P 500, Nasdaq slipped after PPI inflation comes in much hotter than expected - uk.finance.yahoo.com",neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-13 23:37:20+01:00,"S&P 500, Nasdaq hit new closing highs on rate cut hopes - Reuters",negative,-2,0.18181818181818182,-2.6537234527083085,0.5008004903793335,Up
+2025-08-14 15:58:00+01:00,"Stock Market Today: Dow, S&P 500, Nasdaq Open Down After PPI Inflation Report; Bullish, Nvidia, AMD, More Movers - Barron's",neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 16:31:00+01:00,"Stock Market Today: Dow, S&P 500, Nasdaq modestly lower after hot PPI reading; small caps retreat - MarketWatch",neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-13 21:03:45+01:00,"Dow rallies 400 points for a second day, S&P 500 closes at another record high - CNBC",neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-13 23:18:00+01:00,Chinese Stocks Lead Stock Market Jump As This Small-Cap Index Breaks Out. Did The Nasdaq Really Suffer Stalling? - Investor's Business Daily,negative,-2,0.09523809523809523,-2.6537234527083085,0.5008004903793335,Up
+2025-08-13 23:24:53+01:00,"Markets News, Aug. 13, 2025: S&P 500, Nasdaq Hit New Highs as Stock Market Rally Continues; Dow Nears First Record Since December - Investopedia",neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-13 17:32:19+01:00,"Stock market today: Dow pops, S&P 500 and Nasdaq waver as Fed rate cut bets surge - uk.finance.yahoo.com",negative,-1,0.0625,-1.2705706228118567,0.5008004903793335,Up
+2025-08-14 11:11:05+01:00,eToro eyes global growth after $620mn Nasdaq listing - TheBanker.com,neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 15:11:02+01:00,Kyivstar edges closer to Nasdaq listing via SPAC merger with Cohen Circle - Data Center Dynamics,neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 09:59:00+01:00,European Shares Mostly Higher In Cautious Trade; FTSE 100 Underperforms - Nasdaq,negative,-1,0.1,-1.2705706228118567,0.5008004903793335,Up
+2025-08-14 12:14:00+01:00,RedHill Biopharma receives Nasdaq extension to regain compliance by October - Investing.com UK,positive,1,0.08333333333333333,1.4957350369810465,0.5008004903793335,Up
+2025-08-14 16:32:23+01:00,SanDisk Stock (NASDAQ: SNDK) Hovering Below Resistance Into Earnings - AskTraders.com,neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 12:37:16+01:00,"Stock market today: Dow, S&P 500, Nasdaq futures flat with PPI looming amid rate-cut fervor - uk.finance.yahoo.com",neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 15:27:10+01:00,TeraWulf Stock (NASDAQ: WULF) Surges on AI Hosting Contracts With Fluidstack - AskTraders.com,neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 10:41:00+01:00,DAX Modestly Higher As Investors Focus On Earnings - Nasdaq,neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 04:02:00+01:00,Magnitude International completes $8.8 million IPO on Nasdaq By Investing.com - Investing.com UK,neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-13 21:30:30+01:00,"Red Robin (NASDAQ:RRGB) Surprises With Q2 Sales, Stock Soars - uk.finance.yahoo.com",neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 11:19:00+01:00,"Sensex, Nifty End Little Changed As Traders Eye US-Russia Talks - Nasdaq",neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 16:54:24+01:00,"Stock market today: Dow, S&P 500, Nasdaq slip after PPI inflation comes in much hotter than expected - Yahoo Finance",neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 10:00:00+01:00,Is XRP a Buy While It's Below $5? - Nasdaq,neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 10:05:32+01:00,2 Nasdaq 100 Stocks to Research Further and 1 Facing Challenges - Yahoo Finance,neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 12:44:43+01:00,We Think Amdocs' (NASDAQ:DOX) Solid Earnings Are Understated - Yahoo Finance,negative,-1,0.1,-1.2705706228118567,0.5008004903793335,Up
+2025-08-13 20:10:25+01:00,"S&P 500, Nasdaq near record highs on rate cut hopes; Big Tech stocks weaken - Reuters",negative,-2,0.14285714285714285,-2.6537234527083085,0.5008004903793335,Up
+2025-08-14 11:31:59+01:00,Bio-Techne's (NASDAQ:TECH) Soft Earnings Are Actually Better Than They Appear - Yahoo Finance,positive,1,0.08333333333333333,1.4957350369810465,0.5008004903793335,Up
+2025-08-14 11:00:00+01:00,Disney Stock: Buy or Sell? - Nasdaq,neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 11:00:00+01:00,Best Stock to Buy: Novo Nordisk Stock vs. UnitedHealth Stock - Nasdaq,positive,1,0.09090909090909091,1.4957350369810465,0.5008004903793335,Up
+2025-08-13 21:39:00+01:00,"Stock Market Today: Dow Rockets 400 Points; S&P, Nasdaq Extend Rally On Rate Hopes To New Highs; Crypto Stock Catapults - Investor's Business Daily",neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 13:15:00+01:00,Why Advanced Micro Devices (AMD) Stock Soared Wednesday - Nasdaq,neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 15:55:03+01:00,Tilray Brands Reconfirms Strategy to Regain Nasdaq Compliance - Cannabis Business Times,positive,1,0.09090909090909091,1.4957350369810465,0.5008004903793335,Up
+2025-08-14 12:20:19+01:00,Santech Holdings Limited (NASDAQ:STEC) May Have Run Too Fast Too Soon With Recent 29% Price Plummet - simplywall.st,neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-13 17:58:06+01:00,"S&P 500, Nasdaq hover near record highs on September rate cut hopes - Reuters",negative,-1,0.08333333333333333,-1.2705706228118567,0.5008004903793335,Up
+2025-08-14 11:56:35+01:00,We Think Gilead Sciences' (NASDAQ:GILD) Profit Is Only A Baseline For What They Can Achieve - Yahoo Finance,positive,1,0.058823529411764705,1.4957350369810465,0.5008004903793335,Up
+2025-08-14 13:24:00+01:00,Zacks Earnings Trends Highlights: Meta Platforms and Alphabet - Nasdaq,neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-13 18:25:22+01:00,HeartFlow's AI-powered medical technology debuts on Nasdaq - NSF - National Science Foundation (.gov),neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 11:50:12+01:00,What Is Intchains Group Limited's (NASDAQ:ICG) Share Price Doing? - simplywall.st,neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 00:15:00+01:00,Japan Stock Market Has Positive Lead For Thursday - Nasdaq,positive,1,0.1111111111111111,1.4957350369810465,0.5008004903793335,Up
+2025-08-14 12:21:04+01:00,Veeco Instruments' (NASDAQ:VECO) Soft Earnings Don't Show The Whole Picture - Yahoo Finance,neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 16:03:49+01:00,"S&P 500, Nasdaq back in the green as Big Tech rides to the rescue - MarketWatch",neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 12:54:20+01:00,Do These 3 Checks Before Buying Arko Corp. (NASDAQ:ARKO) For Its Upcoming Dividend - simplywall.st,neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-13 22:47:00+01:00,"Nasdaq CEO on IPO market comeback, stock strength and AI adoption - CNBC",positive,1,0.08333333333333333,1.4957350369810465,0.5008004903793335,Up
+2025-08-14 11:36:09+01:00,Weyco Group (NASDAQ:WEYS) Could Be A Buy For Its Upcoming Dividend - simplywall.st,neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 12:02:21+01:00,Tilray Brands Reconfirms Strategy to Regain Nasdaq Compliance; Requests Extension to Meet Listing Requirements - GlobeNewswire,positive,1,0.06666666666666667,1.4957350369810465,0.5008004903793335,Up
+2025-08-14 11:12:08+01:00,"Theravance Biopharma (NASDAQ:TBPH) shareholder returns have been respectable, earning 51% in 1 year - simplywall.st",neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 11:36:09+01:00,Inspired Entertainment's (NASDAQ:INSE) Shareholders May Want To Dig Deeper Than Statutory Profit - simplywall.st,neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 15:53:03+01:00,BUUU Group begins trading on Nasdaq at $4 per share - Investing.com,neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 11:50:12+01:00,We Believe CleanSpark's (NASDAQ:CLSK) Earnings Are A Poor Guide For Its Profitability - simplywall.st,neutral,0,0.15384615384615385,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 02:00:00+01:00,"China Stock Market May Challenge 3,700-Point Level - Nasdaq",negative,-1,0.14285714285714285,-1.2705706228118567,0.5008004903793335,Up
+2025-08-14 11:11:12+01:00,Q2 Rundown: Gilead Sciences (NASDAQ:GILD) Vs Other Therapeutics Stocks - au.finance.yahoo.com,neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-13 20:15:36+01:00,"Stock market today: Dow pops, S&P 500 and Nasdaq waver as Fed rate cut bets surge - Yahoo Finance",negative,-1,0.058823529411764705,-1.2705706228118567,0.5008004903793335,Up
+2025-08-14 16:11:00+01:00,U.S. Stocks Showing A Lack Of Direction After Early Pullback - Nasdaq,negative,-1,0.09090909090909091,-1.2705706228118567,0.5008004903793335,Up
+2025-08-13 22:47:16+01:00,"US stocks close midweek with continued rise; S&P 500, Nasdaq hit new record highs - Anadolu Ajansı",neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 12:29:53+01:00,RedHill Biopharma Granted Nasdaq Compliance Extension - TipRanks,neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 10:01:16+01:00,Reflecting On E-commerce Software Stocks’ Q2 Earnings: VeriSign (NASDAQ:VRSN) - Yahoo Finance,neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 11:26:08+01:00,Odysight.ai (NASDAQ:ODYS investor five-year losses grow to 43% as the stock sheds US$11m this past week - simplywall.st,negative,-1,0.06666666666666667,-1.2705706228118567,0.5008004903793335,Up
+2025-08-14 13:29:03+01:00,Polyrizon regains compliance with Nasdaq listing requirements - Investing.com,positive,1,0.125,1.4957350369810465,0.5008004903793335,Up
+2025-08-14 11:40:12+01:00,There May Be Reason For Hope In Everspin Technologies' (NASDAQ:MRAM) Disappointing Earnings - simplywall.st,negative,-1,0.07692307692307693,-1.2705706228118567,0.5008004903793335,Up
+2025-08-14 14:07:09+01:00,AstroNova's (NASDAQ:ALOT) investors will be pleased with their notable 52% return over the last five years - Yahoo Finance,positive,1,0.058823529411764705,1.4957350369810465,0.5008004903793335,Up
+2025-08-14 13:20:28+01:00,We Think You Can Look Beyond HireQuest's (NASDAQ:HQI) Lackluster Earnings - Yahoo Finance,negative,-1,0.08333333333333333,-1.2705706228118567,0.5008004903793335,Up
+2025-08-14 12:03:10+01:00,Capital Allocation Trends At Jerash Holdings (US) (NASDAQ:JRSH) Aren't Ideal - Yahoo Finance,positive,1,0.08333333333333333,1.4957350369810465,0.5008004903793335,Up
+2025-08-14 15:13:00+01:00,Innovative Solutions Sales Soar 105% - Nasdaq,positive,1,0.2,1.4957350369810465,0.5008004903793335,Up
+2025-08-14 12:10:13+01:00,We Think Bioventus' (NASDAQ:BVS) Robust Earnings Are Conservative - simplywall.st,neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 11:26:08+01:00,"Investors Appear Satisfied With KORU Medical Systems, Inc.'s (NASDAQ:KRMD) Prospects As Shares Rocket 34% - simplywall.st",positive,1,0.07142857142857142,1.4957350369810465,0.5008004903793335,Up
+2025-08-14 11:00:35+01:00,Q2 Earnings Outperformers: Perdoceo Education (NASDAQ:PRDO) And The Rest Of The Education Services Stocks - Yahoo Finance,neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 14:42:43+01:00,US Stock Market Today: S&P 500 Retreats From Record High Nasdaq Falls 64 Points On Producer Inflation Data - NDTV Profit,neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-13 22:12:02+01:00,"Stock market today: Dow jumps 450 points as S&P 500, Nasdaq log back-to-back records on surging Fed rate cut bets - Yahoo Finance",negative,-1,0.05,-1.2705706228118567,0.5008004903793335,Up
+2025-08-14 04:10:06+01:00,Magnitude International completes $8.8 million IPO on Nasdaq - Investing.com,neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 17:11:06+01:00,"Little Excitement Around G-III Apparel Group, Ltd.'s (NASDAQ:GIII) Earnings - simplywall.st",positive,1,0.1,1.4957350369810465,0.5008004903793335,Up
+2025-08-14 16:49:00+01:00,Stocks Fall Back on Hot PPI Report - Nasdaq,neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 12:12:02+01:00,Arko's (NASDAQ:ARKO) Weak Earnings May Only Reveal A Part Of The Whole Picture - Yahoo Finance,negative,-1,0.06666666666666667,-1.2705706228118567,0.5008004903793335,Up
+2025-08-14 11:04:00+01:00,3 Reasons to Buy Chevron Stock Like There's No Tomorrow - Nasdaq,neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 10:00:00+01:00,AI Development Is Accelerating: 1 Vanguard ETF to Buy Right Now - Nasdaq,neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 15:14:00+01:00,"US market today: S&P 500, Nasdaq slip from peaks; Dow down 104 points after hot inflation data - Times of India",neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 12:20:16+01:00,"Maravai LifeSciences Holdings, Inc. (NASDAQ:MRVI) Just Reported Earnings, And Analysts Cut Their Target Price - simplywall.st",negative,-1,0.06666666666666667,-1.2705706228118567,0.5008004903793335,Up
+2025-08-14 13:32:00+01:00,Unicycive Posts 65% EPS Gain in Q2 - Nasdaq,positive,1,0.16666666666666666,1.4957350369810465,0.5008004903793335,Up
+2025-08-14 12:05:44+01:00,Some Investors May Be Willing To Look Past Verra Mobility's (NASDAQ:VRRM) Soft Earnings - Yahoo Finance,neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 14:32:00+01:00,Oracle To Offer Customers Access To Google's Advanced AI Models - Nasdaq,neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 17:17:05+01:00,"Why Amedisys, Inc. (NASDAQ:AMED) Could Be Worth Watching - simplywall.st",neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 12:46:26+01:00,"Harvard Bioscience, Inc. (NASDAQ:HBIO) Just Reported, And Analysts Assigned A US$3.00 Price Target - simplywall.st",neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 13:25:59+01:00,GigaCloud Technology's (NASDAQ:GCT) Earnings Offer More Than Meets The Eye - Yahoo Finance,neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 11:26:10+01:00,"Aardvark Therapeutics, Inc.'s (NASDAQ:AARD) stock price dropped 11% last week; individual investors would not be happy - simplywall.st",negative,-2,0.125,-2.6537234527083085,0.5008004903793335,Up
+2025-08-14 14:38:22+01:00,Microsoft (NASDAQ: MSFT) Stock Price Prediction for 2025: Where Will It Be in 1 Year - 24/7 Wall St.,neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 13:40:44+01:00,Meta Platforms (NASDAQ: META) Stock Price Prediction for 2025: Where Will It Be in 1 Year (Aug 14) - 24/7 Wall St.,neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 11:26:08+01:00,Revenues Working Against Nortech Systems Incorporated's (NASDAQ:NSYS) Share Price - simplywall.st,negative,-1,0.1,-1.2705706228118567,0.5008004903793335,Up
+2025-08-14 12:28:17+01:00,"Papa John's International, Inc. (NASDAQ:PZZA) Goes Ex-Dividend Soon - simplywall.st",neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 05:20:00+01:00,"Sensex, Nifty Marginally Higher Ahead Of US-Russia Talks - Nasdaq",neutral,0,0.0,0.1125822070845949,0.5008004903793335,Up
+2025-08-14 16:31:11+01:00,"Stock market today: Dow, S&P 500, Nasdaq slipped after PPI inflation comes in much hotter than expected - uk.finance.yahoo.com",neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-13 23:37:20+01:00,"S&P 500, Nasdaq hit new closing highs on rate cut hopes - Reuters",negative,-2,0.18181818181818182,-2.681126887773713,0.4738312363624573,Up
+2025-08-14 15:58:00+01:00,"Stock Market Today: Dow, S&P 500, Nasdaq Open Down After PPI Inflation Report; Bullish, Nvidia, AMD, More Movers - Barron's",neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 16:31:00+01:00,"Stock Market Today: Dow, S&P 500, Nasdaq modestly lower after hot PPI reading; small caps retreat - MarketWatch",neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-13 21:03:45+01:00,"Dow rallies 400 points for a second day, S&P 500 closes at another record high - CNBC",neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-13 23:18:00+01:00,Chinese Stocks Lead Stock Market Jump As This Small-Cap Index Breaks Out. Did The Nasdaq Really Suffer Stalling? - Investor's Business Daily,negative,-2,0.09523809523809523,-2.681126887773713,0.4738312363624573,Up
+2025-08-13 23:24:53+01:00,"Markets News, Aug. 13, 2025: S&P 500, Nasdaq Hit New Highs as Stock Market Rally Continues; Dow Nears First Record Since December - Investopedia",neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 11:11:05+01:00,eToro eyes global growth after $620mn Nasdaq listing - TheBanker.com,neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 15:11:02+01:00,Kyivstar edges closer to Nasdaq listing via SPAC merger with Cohen Circle - Data Center Dynamics,neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 09:59:00+01:00,European Shares Mostly Higher In Cautious Trade; FTSE 100 Underperforms - Nasdaq,negative,-1,0.1,-1.282278076761341,0.4738312363624573,Up
+2025-08-14 12:14:00+01:00,RedHill Biopharma receives Nasdaq extension to regain compliance by October - Investing.com UK,positive,1,0.08333333333333333,1.515419545263403,0.4738312363624573,Up
+2025-08-14 16:32:23+01:00,SanDisk Stock (NASDAQ: SNDK) Hovering Below Resistance Into Earnings - AskTraders.com,neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 12:37:16+01:00,"Stock market today: Dow, S&P 500, Nasdaq futures flat with PPI looming amid rate-cut fervor - uk.finance.yahoo.com",neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 15:27:10+01:00,TeraWulf Stock (NASDAQ: WULF) Surges on AI Hosting Contracts With Fluidstack - AskTraders.com,neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 10:41:00+01:00,DAX Modestly Higher As Investors Focus On Earnings - Nasdaq,neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 04:02:00+01:00,Magnitude International completes $8.8 million IPO on Nasdaq By Investing.com - Investing.com UK,neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-13 21:30:30+01:00,"Red Robin (NASDAQ:RRGB) Surprises With Q2 Sales, Stock Soars - uk.finance.yahoo.com",neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 11:19:00+01:00,"Sensex, Nifty End Little Changed As Traders Eye US-Russia Talks - Nasdaq",neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 16:54:24+01:00,"Stock market today: Dow, S&P 500, Nasdaq slip after PPI inflation comes in much hotter than expected - Yahoo Finance",neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 10:00:00+01:00,Is XRP a Buy While It's Below $5? - Nasdaq,neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 10:05:32+01:00,2 Nasdaq 100 Stocks to Research Further and 1 Facing Challenges - Yahoo Finance,neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 12:44:43+01:00,We Think Amdocs' (NASDAQ:DOX) Solid Earnings Are Understated - Yahoo Finance,negative,-1,0.1,-1.282278076761341,0.4738312363624573,Up
+2025-08-13 20:10:25+01:00,"S&P 500, Nasdaq near record highs on rate cut hopes; Big Tech stocks weaken - Reuters",negative,-2,0.14285714285714285,-2.681126887773713,0.4738312363624573,Up
+2025-08-14 11:31:59+01:00,Bio-Techne's (NASDAQ:TECH) Soft Earnings Are Actually Better Than They Appear - Yahoo Finance,positive,1,0.08333333333333333,1.515419545263403,0.4738312363624573,Up
+2025-08-14 11:00:00+01:00,Disney Stock: Buy or Sell? - Nasdaq,neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 11:00:00+01:00,Best Stock to Buy: Novo Nordisk Stock vs. UnitedHealth Stock - Nasdaq,positive,1,0.09090909090909091,1.515419545263403,0.4738312363624573,Up
+2025-08-13 21:39:00+01:00,"Stock Market Today: Dow Rockets 400 Points; S&P, Nasdaq Extend Rally On Rate Hopes To New Highs; Crypto Stock Catapults - Investor's Business Daily",neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 13:15:00+01:00,Why Advanced Micro Devices (AMD) Stock Soared Wednesday - Nasdaq,neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 15:55:03+01:00,Tilray Brands Reconfirms Strategy to Regain Nasdaq Compliance - Cannabis Business Times,positive,1,0.09090909090909091,1.515419545263403,0.4738312363624573,Up
+2025-08-14 12:20:19+01:00,Santech Holdings Limited (NASDAQ:STEC) May Have Run Too Fast Too Soon With Recent 29% Price Plummet - simplywall.st,neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 11:56:35+01:00,We Think Gilead Sciences' (NASDAQ:GILD) Profit Is Only A Baseline For What They Can Achieve - Yahoo Finance,positive,1,0.058823529411764705,1.515419545263403,0.4738312363624573,Up
+2025-08-13 17:58:06+01:00,"S&P 500, Nasdaq hover near record highs on September rate cut hopes - Reuters",negative,-1,0.08333333333333333,-1.282278076761341,0.4738312363624573,Up
+2025-08-14 13:24:00+01:00,Zacks Earnings Trends Highlights: Meta Platforms and Alphabet - Nasdaq,neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-13 18:25:22+01:00,HeartFlow's AI-powered medical technology debuts on Nasdaq - NSF - National Science Foundation (.gov),neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 11:50:12+01:00,What Is Intchains Group Limited's (NASDAQ:ICG) Share Price Doing? - simplywall.st,neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 00:15:00+01:00,Japan Stock Market Has Positive Lead For Thursday - Nasdaq,positive,1,0.1111111111111111,1.515419545263403,0.4738312363624573,Up
+2025-08-14 12:21:04+01:00,Veeco Instruments' (NASDAQ:VECO) Soft Earnings Don't Show The Whole Picture - Yahoo Finance,neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 16:03:49+01:00,"S&P 500, Nasdaq back in the green as Big Tech rides to the rescue - MarketWatch",neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 12:54:20+01:00,Do These 3 Checks Before Buying Arko Corp. (NASDAQ:ARKO) For Its Upcoming Dividend - simplywall.st,neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-13 22:47:00+01:00,"Nasdaq CEO on IPO market comeback, stock strength and AI adoption - CNBC",positive,1,0.08333333333333333,1.515419545263403,0.4738312363624573,Up
+2025-08-14 11:36:09+01:00,Weyco Group (NASDAQ:WEYS) Could Be A Buy For Its Upcoming Dividend - simplywall.st,neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 12:02:21+01:00,Tilray Brands Reconfirms Strategy to Regain Nasdaq Compliance; Requests Extension to Meet Listing Requirements - GlobeNewswire,positive,1,0.06666666666666667,1.515419545263403,0.4738312363624573,Up
+2025-08-14 11:12:08+01:00,"Theravance Biopharma (NASDAQ:TBPH) shareholder returns have been respectable, earning 51% in 1 year - simplywall.st",neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 11:36:09+01:00,Inspired Entertainment's (NASDAQ:INSE) Shareholders May Want To Dig Deeper Than Statutory Profit - simplywall.st,neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 15:53:03+01:00,BUUU Group begins trading on Nasdaq at $4 per share - Investing.com,neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 11:50:12+01:00,We Believe CleanSpark's (NASDAQ:CLSK) Earnings Are A Poor Guide For Its Profitability - simplywall.st,neutral,0,0.15384615384615385,0.116570734251031,0.4738312363624573,Up
+2025-08-14 02:00:00+01:00,"China Stock Market May Challenge 3,700-Point Level - Nasdaq",negative,-1,0.14285714285714285,-1.282278076761341,0.4738312363624573,Up
+2025-08-14 11:11:12+01:00,Q2 Rundown: Gilead Sciences (NASDAQ:GILD) Vs Other Therapeutics Stocks - au.finance.yahoo.com,neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 16:11:00+01:00,U.S. Stocks Showing A Lack Of Direction After Early Pullback - Nasdaq,negative,-1,0.09090909090909091,-1.282278076761341,0.4738312363624573,Up
+2025-08-13 20:15:36+01:00,"Stock market today: Dow pops, S&P 500 and Nasdaq waver as Fed rate cut bets surge - Yahoo Finance",negative,-1,0.058823529411764705,-1.282278076761341,0.4738312363624573,Up
+2025-08-13 22:47:16+01:00,"US stocks close midweek with continued rise; S&P 500, Nasdaq hit new record highs - Anadolu Ajansı",neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 12:29:53+01:00,RedHill Biopharma Granted Nasdaq Compliance Extension - TipRanks,neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 10:01:16+01:00,Reflecting On E-commerce Software Stocks’ Q2 Earnings: VeriSign (NASDAQ:VRSN) - Yahoo Finance,neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 11:26:08+01:00,Odysight.ai (NASDAQ:ODYS investor five-year losses grow to 43% as the stock sheds US$11m this past week - simplywall.st,negative,-1,0.06666666666666667,-1.282278076761341,0.4738312363624573,Up
+2025-08-13 22:12:02+01:00,"Stock market today: Dow jumps 450 points as S&P 500, Nasdaq log back-to-back records on surging Fed rate cut bets - Yahoo Finance",negative,-1,0.05,-1.282278076761341,0.4738312363624573,Up
+2025-08-14 13:29:03+01:00,Polyrizon regains compliance with Nasdaq listing requirements - Investing.com,positive,1,0.125,1.515419545263403,0.4738312363624573,Up
+2025-08-14 11:40:12+01:00,There May Be Reason For Hope In Everspin Technologies' (NASDAQ:MRAM) Disappointing Earnings - simplywall.st,negative,-1,0.07692307692307693,-1.282278076761341,0.4738312363624573,Up
+2025-08-14 14:07:09+01:00,AstroNova's (NASDAQ:ALOT) investors will be pleased with their notable 52% return over the last five years - Yahoo Finance,positive,1,0.058823529411764705,1.515419545263403,0.4738312363624573,Up
+2025-08-14 13:20:28+01:00,We Think You Can Look Beyond HireQuest's (NASDAQ:HQI) Lackluster Earnings - Yahoo Finance,negative,-1,0.08333333333333333,-1.282278076761341,0.4738312363624573,Up
+2025-08-14 12:03:10+01:00,Capital Allocation Trends At Jerash Holdings (US) (NASDAQ:JRSH) Aren't Ideal - Yahoo Finance,positive,1,0.08333333333333333,1.515419545263403,0.4738312363624573,Up
+2025-08-14 15:13:00+01:00,Innovative Solutions Sales Soar 105% - Nasdaq,positive,1,0.2,1.515419545263403,0.4738312363624573,Up
+2025-08-14 12:10:13+01:00,We Think Bioventus' (NASDAQ:BVS) Robust Earnings Are Conservative - simplywall.st,neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 17:28:46+01:00,Tilray Eyes Reverse Stock Split As Nasdaq Listing Compliance Pressure Mounts - Yahoo Finance,neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 11:26:08+01:00,"Investors Appear Satisfied With KORU Medical Systems, Inc.'s (NASDAQ:KRMD) Prospects As Shares Rocket 34% - simplywall.st",positive,1,0.07142857142857142,1.515419545263403,0.4738312363624573,Up
+2025-08-14 11:00:35+01:00,Q2 Earnings Outperformers: Perdoceo Education (NASDAQ:PRDO) And The Rest Of The Education Services Stocks - Yahoo Finance,neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 14:42:43+01:00,US Stock Market Today: S&P 500 Retreats From Record High Nasdaq Falls 64 Points On Producer Inflation Data - NDTV Profit,neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 17:11:06+01:00,"Little Excitement Around G-III Apparel Group, Ltd.'s (NASDAQ:GIII) Earnings - simplywall.st",positive,1,0.1,1.515419545263403,0.4738312363624573,Up
+2025-08-14 04:10:06+01:00,Magnitude International completes $8.8 million IPO on Nasdaq - Investing.com,neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 16:49:00+01:00,Stocks Fall Back on Hot PPI Report - Nasdaq,neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 12:12:02+01:00,Arko's (NASDAQ:ARKO) Weak Earnings May Only Reveal A Part Of The Whole Picture - Yahoo Finance,negative,-1,0.06666666666666667,-1.282278076761341,0.4738312363624573,Up
+2025-08-14 11:04:00+01:00,3 Reasons to Buy Chevron Stock Like There's No Tomorrow - Nasdaq,neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 10:00:00+01:00,AI Development Is Accelerating: 1 Vanguard ETF to Buy Right Now - Nasdaq,neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 15:14:00+01:00,"US market today: S&P 500, Nasdaq slip from peaks; Dow down 104 points after hot inflation data - Times of India",neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 12:20:16+01:00,"Maravai LifeSciences Holdings, Inc. (NASDAQ:MRVI) Just Reported Earnings, And Analysts Cut Their Target Price - simplywall.st",negative,-1,0.06666666666666667,-1.282278076761341,0.4738312363624573,Up
+2025-08-14 12:05:44+01:00,Some Investors May Be Willing To Look Past Verra Mobility's (NASDAQ:VRRM) Soft Earnings - Yahoo Finance,neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 14:32:00+01:00,Oracle To Offer Customers Access To Google's Advanced AI Models - Nasdaq,neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 17:17:05+01:00,"Why Amedisys, Inc. (NASDAQ:AMED) Could Be Worth Watching - simplywall.st",neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 12:46:26+01:00,"Harvard Bioscience, Inc. (NASDAQ:HBIO) Just Reported, And Analysts Assigned A US$3.00 Price Target - simplywall.st",neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 13:25:59+01:00,GigaCloud Technology's (NASDAQ:GCT) Earnings Offer More Than Meets The Eye - Yahoo Finance,neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 11:26:10+01:00,"Aardvark Therapeutics, Inc.'s (NASDAQ:AARD) stock price dropped 11% last week; individual investors would not be happy - simplywall.st",negative,-2,0.125,-2.681126887773713,0.4738312363624573,Up
+2025-08-14 14:38:22+01:00,Microsoft (NASDAQ: MSFT) Stock Price Prediction for 2025: Where Will It Be in 1 Year - 24/7 Wall St.,neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 13:40:44+01:00,Meta Platforms (NASDAQ: META) Stock Price Prediction for 2025: Where Will It Be in 1 Year (Aug 14) - 24/7 Wall St.,neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 11:26:08+01:00,Revenues Working Against Nortech Systems Incorporated's (NASDAQ:NSYS) Share Price - simplywall.st,negative,-1,0.1,-1.282278076761341,0.4738312363624573,Up
+2025-08-14 12:28:17+01:00,"Papa John's International, Inc. (NASDAQ:PZZA) Goes Ex-Dividend Soon - simplywall.st",neutral,0,0.0,0.116570734251031,0.4738312363624573,Up
+2025-08-14 16:31:11+01:00,"Stock market today: Dow, S&P 500, Nasdaq slipped after PPI inflation comes in much hotter than expected - uk.finance.yahoo.com",neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-13 23:37:20+01:00,"S&P 500, Nasdaq hit new closing highs on rate cut hopes - Reuters",negative,-2,0.18181818181818182,-2.698391271597659,0.47824627161026,Up
+2025-08-14 17:28:46+01:00,Tilray Eyes Reverse Stock Split As Nasdaq Listing Compliance Pressure Mounts - Yahoo Finance,neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 15:58:00+01:00,"Stock Market Today: Dow, S&P 500, Nasdaq Open Down After PPI Inflation Report; Bullish, Nvidia, AMD, More Movers - Barron's",neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 16:31:00+01:00,"Stock Market Today: Dow, S&P 500, Nasdaq modestly lower after hot PPI reading; small caps retreat - MarketWatch",neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-13 21:03:45+01:00,"Dow rallies 400 points for a second day, S&P 500 closes at another record high - CNBC",neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-13 23:18:00+01:00,Chinese Stocks Lead Stock Market Jump As This Small-Cap Index Breaks Out. Did The Nasdaq Really Suffer Stalling? - Investor's Business Daily,negative,-2,0.09523809523809523,-2.698391271597659,0.47824627161026,Up
+2025-08-13 23:24:53+01:00,"Markets News, Aug. 13, 2025: S&P 500, Nasdaq Hit New Highs as Stock Market Rally Continues; Dow Nears First Record Since December - Investopedia",neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 11:11:05+01:00,eToro eyes global growth after $620mn Nasdaq listing - TheBanker.com,neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 15:11:02+01:00,Kyivstar edges closer to Nasdaq listing via SPAC merger with Cohen Circle - Data Center Dynamics,neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 09:59:00+01:00,European Shares Mostly Higher In Cautious Trade; FTSE 100 Underperforms - Nasdaq,negative,-1,0.1,-1.2912547189240329,0.47824627161026,Up
+2025-08-14 12:14:00+01:00,RedHill Biopharma receives Nasdaq extension to regain compliance by October - Investing.com UK,positive,1,0.08333333333333333,1.5230183864232183,0.47824627161026,Up
+2025-08-14 16:32:23+01:00,SanDisk Stock (NASDAQ: SNDK) Hovering Below Resistance Into Earnings - AskTraders.com,neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 12:37:16+01:00,"Stock market today: Dow, S&P 500, Nasdaq futures flat with PPI looming amid rate-cut fervor - uk.finance.yahoo.com",neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 15:27:10+01:00,TeraWulf Stock (NASDAQ: WULF) Surges on AI Hosting Contracts With Fluidstack - AskTraders.com,neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 10:41:00+01:00,DAX Modestly Higher As Investors Focus On Earnings - Nasdaq,neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 04:02:00+01:00,Magnitude International completes $8.8 million IPO on Nasdaq By Investing.com - Investing.com UK,neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-13 21:30:30+01:00,"Red Robin (NASDAQ:RRGB) Surprises With Q2 Sales, Stock Soars - uk.finance.yahoo.com",neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 11:19:00+01:00,"Sensex, Nifty End Little Changed As Traders Eye US-Russia Talks - Nasdaq",neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 16:54:24+01:00,"Stock market today: Dow, S&P 500, Nasdaq slip after PPI inflation comes in much hotter than expected - Yahoo Finance",neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 10:00:00+01:00,Is XRP a Buy While It's Below $5? - Nasdaq,neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 10:05:32+01:00,2 Nasdaq 100 Stocks to Research Further and 1 Facing Challenges - Yahoo Finance,neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 12:44:43+01:00,We Think Amdocs' (NASDAQ:DOX) Solid Earnings Are Understated - Yahoo Finance,negative,-1,0.1,-1.2912547189240329,0.47824627161026,Up
+2025-08-13 20:10:25+01:00,"S&P 500, Nasdaq near record highs on rate cut hopes; Big Tech stocks weaken - Reuters",negative,-2,0.14285714285714285,-2.698391271597659,0.47824627161026,Up
+2025-08-14 11:31:59+01:00,Bio-Techne's (NASDAQ:TECH) Soft Earnings Are Actually Better Than They Appear - Yahoo Finance,positive,1,0.08333333333333333,1.5230183864232183,0.47824627161026,Up
+2025-08-14 11:00:00+01:00,Disney Stock: Buy or Sell? - Nasdaq,neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 11:00:00+01:00,Best Stock to Buy: Novo Nordisk Stock vs. UnitedHealth Stock - Nasdaq,positive,1,0.09090909090909091,1.5230183864232183,0.47824627161026,Up
+2025-08-13 21:39:00+01:00,"Stock Market Today: Dow Rockets 400 Points; S&P, Nasdaq Extend Rally On Rate Hopes To New Highs; Crypto Stock Catapults - Investor's Business Daily",neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 13:15:00+01:00,Why Advanced Micro Devices (AMD) Stock Soared Wednesday - Nasdaq,neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 15:55:03+01:00,Tilray Brands Reconfirms Strategy to Regain Nasdaq Compliance - Cannabis Business Times,positive,1,0.09090909090909091,1.5230183864232183,0.47824627161026,Up
+2025-08-14 12:20:19+01:00,Santech Holdings Limited (NASDAQ:STEC) May Have Run Too Fast Too Soon With Recent 29% Price Plummet - simplywall.st,neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 11:56:35+01:00,We Think Gilead Sciences' (NASDAQ:GILD) Profit Is Only A Baseline For What They Can Achieve - Yahoo Finance,positive,1,0.058823529411764705,1.5230183864232183,0.47824627161026,Up
+2025-08-13 17:58:06+01:00,"S&P 500, Nasdaq hover near record highs on September rate cut hopes - Reuters",negative,-1,0.08333333333333333,-1.2912547189240329,0.47824627161026,Up
+2025-08-14 13:24:00+01:00,Zacks Earnings Trends Highlights: Meta Platforms and Alphabet - Nasdaq,neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-13 18:25:22+01:00,HeartFlow's AI-powered medical technology debuts on Nasdaq - NSF - National Science Foundation (.gov),neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 11:50:12+01:00,What Is Intchains Group Limited's (NASDAQ:ICG) Share Price Doing? - simplywall.st,neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 00:15:00+01:00,Japan Stock Market Has Positive Lead For Thursday - Nasdaq,positive,1,0.1111111111111111,1.5230183864232183,0.47824627161026,Up
+2025-08-14 12:21:04+01:00,Veeco Instruments' (NASDAQ:VECO) Soft Earnings Don't Show The Whole Picture - Yahoo Finance,neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 16:03:49+01:00,"S&P 500, Nasdaq back in the green as Big Tech rides to the rescue - MarketWatch",neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 12:54:20+01:00,Do These 3 Checks Before Buying Arko Corp. (NASDAQ:ARKO) For Its Upcoming Dividend - simplywall.st,neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-13 22:47:00+01:00,"Nasdaq CEO on IPO market comeback, stock strength and AI adoption - CNBC",positive,1,0.08333333333333333,1.5230183864232183,0.47824627161026,Up
+2025-08-14 11:36:09+01:00,Weyco Group (NASDAQ:WEYS) Could Be A Buy For Its Upcoming Dividend - simplywall.st,neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 12:02:21+01:00,Tilray Brands Reconfirms Strategy to Regain Nasdaq Compliance; Requests Extension to Meet Listing Requirements - GlobeNewswire,positive,1,0.06666666666666667,1.5230183864232183,0.47824627161026,Up
+2025-08-14 11:12:08+01:00,"Theravance Biopharma (NASDAQ:TBPH) shareholder returns have been respectable, earning 51% in 1 year - simplywall.st",neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 11:36:09+01:00,Inspired Entertainment's (NASDAQ:INSE) Shareholders May Want To Dig Deeper Than Statutory Profit - simplywall.st,neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 15:53:03+01:00,BUUU Group begins trading on Nasdaq at $4 per share - Investing.com,neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 11:50:12+01:00,We Believe CleanSpark's (NASDAQ:CLSK) Earnings Are A Poor Guide For Its Profitability - simplywall.st,neutral,0,0.15384615384615385,0.11588183374959271,0.47824627161026,Up
+2025-08-14 02:00:00+01:00,"China Stock Market May Challenge 3,700-Point Level - Nasdaq",negative,-1,0.14285714285714285,-1.2912547189240329,0.47824627161026,Up
+2025-08-14 11:11:12+01:00,Q2 Rundown: Gilead Sciences (NASDAQ:GILD) Vs Other Therapeutics Stocks - au.finance.yahoo.com,neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 16:11:00+01:00,U.S. Stocks Showing A Lack Of Direction After Early Pullback - Nasdaq,negative,-1,0.09090909090909091,-1.2912547189240329,0.47824627161026,Up
+2025-08-13 20:15:36+01:00,"Stock market today: Dow pops, S&P 500 and Nasdaq waver as Fed rate cut bets surge - Yahoo Finance",negative,-1,0.058823529411764705,-1.2912547189240329,0.47824627161026,Up
+2025-08-13 22:47:16+01:00,"US stocks close midweek with continued rise; S&P 500, Nasdaq hit new record highs - Anadolu Ajansı",neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 12:29:53+01:00,RedHill Biopharma Granted Nasdaq Compliance Extension - TipRanks,neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 10:01:16+01:00,Reflecting On E-commerce Software Stocks’ Q2 Earnings: VeriSign (NASDAQ:VRSN) - Yahoo Finance,neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 11:26:08+01:00,Odysight.ai (NASDAQ:ODYS investor five-year losses grow to 43% as the stock sheds US$11m this past week - simplywall.st,negative,-1,0.06666666666666667,-1.2912547189240329,0.47824627161026,Up
+2025-08-13 22:12:02+01:00,"Stock market today: Dow jumps 450 points as S&P 500, Nasdaq log back-to-back records on surging Fed rate cut bets - Yahoo Finance",negative,-1,0.05,-1.2912547189240329,0.47824627161026,Up
+2025-08-14 13:29:03+01:00,Polyrizon regains compliance with Nasdaq listing requirements - Investing.com,positive,1,0.125,1.5230183864232183,0.47824627161026,Up
+2025-08-14 11:40:12+01:00,There May Be Reason For Hope In Everspin Technologies' (NASDAQ:MRAM) Disappointing Earnings - simplywall.st,negative,-1,0.07692307692307693,-1.2912547189240329,0.47824627161026,Up
+2025-08-14 14:07:09+01:00,AstroNova's (NASDAQ:ALOT) investors will be pleased with their notable 52% return over the last five years - Yahoo Finance,positive,1,0.058823529411764705,1.5230183864232183,0.47824627161026,Up
+2025-08-14 13:20:28+01:00,We Think You Can Look Beyond HireQuest's (NASDAQ:HQI) Lackluster Earnings - Yahoo Finance,negative,-1,0.08333333333333333,-1.2912547189240329,0.47824627161026,Up
+2025-08-14 12:03:10+01:00,Capital Allocation Trends At Jerash Holdings (US) (NASDAQ:JRSH) Aren't Ideal - Yahoo Finance,positive,1,0.08333333333333333,1.5230183864232183,0.47824627161026,Up
+2025-08-14 15:13:00+01:00,Innovative Solutions Sales Soar 105% - Nasdaq,positive,1,0.2,1.5230183864232183,0.47824627161026,Up
+2025-08-14 12:10:13+01:00,We Think Bioventus' (NASDAQ:BVS) Robust Earnings Are Conservative - simplywall.st,neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 11:26:08+01:00,"Investors Appear Satisfied With KORU Medical Systems, Inc.'s (NASDAQ:KRMD) Prospects As Shares Rocket 34% - simplywall.st",positive,1,0.07142857142857142,1.5230183864232183,0.47824627161026,Up
+2025-08-14 11:00:35+01:00,Q2 Earnings Outperformers: Perdoceo Education (NASDAQ:PRDO) And The Rest Of The Education Services Stocks - Yahoo Finance,neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 14:42:43+01:00,US Stock Market Today: S&P 500 Retreats From Record High Nasdaq Falls 64 Points On Producer Inflation Data - NDTV Profit,neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 17:11:06+01:00,"Little Excitement Around G-III Apparel Group, Ltd.'s (NASDAQ:GIII) Earnings - simplywall.st",positive,1,0.1,1.5230183864232183,0.47824627161026,Up
+2025-08-14 04:10:06+01:00,Magnitude International completes $8.8 million IPO on Nasdaq - Investing.com,neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 16:49:00+01:00,Stocks Fall Back on Hot PPI Report - Nasdaq,neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 12:12:02+01:00,Arko's (NASDAQ:ARKO) Weak Earnings May Only Reveal A Part Of The Whole Picture - Yahoo Finance,negative,-1,0.06666666666666667,-1.2912547189240329,0.47824627161026,Up
+2025-08-14 11:04:00+01:00,3 Reasons to Buy Chevron Stock Like There's No Tomorrow - Nasdaq,neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 10:00:00+01:00,AI Development Is Accelerating: 1 Vanguard ETF to Buy Right Now - Nasdaq,neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 15:14:00+01:00,"US market today: S&P 500, Nasdaq slip from peaks; Dow down 104 points after hot inflation data - Times of India",neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 12:20:16+01:00,"Maravai LifeSciences Holdings, Inc. (NASDAQ:MRVI) Just Reported Earnings, And Analysts Cut Their Target Price - simplywall.st",negative,-1,0.06666666666666667,-1.2912547189240329,0.47824627161026,Up
+2025-08-14 12:05:44+01:00,Some Investors May Be Willing To Look Past Verra Mobility's (NASDAQ:VRRM) Soft Earnings - Yahoo Finance,neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 14:32:00+01:00,Oracle To Offer Customers Access To Google's Advanced AI Models - Nasdaq,neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 17:17:05+01:00,"Why Amedisys, Inc. (NASDAQ:AMED) Could Be Worth Watching - simplywall.st",neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 12:46:26+01:00,"Harvard Bioscience, Inc. (NASDAQ:HBIO) Just Reported, And Analysts Assigned A US$3.00 Price Target - simplywall.st",neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 13:25:59+01:00,GigaCloud Technology's (NASDAQ:GCT) Earnings Offer More Than Meets The Eye - Yahoo Finance,neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 11:26:10+01:00,"Aardvark Therapeutics, Inc.'s (NASDAQ:AARD) stock price dropped 11% last week; individual investors would not be happy - simplywall.st",negative,-2,0.125,-2.698391271597659,0.47824627161026,Up
+2025-08-14 14:38:22+01:00,Microsoft (NASDAQ: MSFT) Stock Price Prediction for 2025: Where Will It Be in 1 Year - 24/7 Wall St.,neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 13:40:44+01:00,Meta Platforms (NASDAQ: META) Stock Price Prediction for 2025: Where Will It Be in 1 Year (Aug 14) - 24/7 Wall St.,neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 11:26:08+01:00,Revenues Working Against Nortech Systems Incorporated's (NASDAQ:NSYS) Share Price - simplywall.st,negative,-1,0.1,-1.2912547189240329,0.47824627161026,Up
+2025-08-14 12:28:17+01:00,"Papa John's International, Inc. (NASDAQ:PZZA) Goes Ex-Dividend Soon - simplywall.st",neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 05:20:00+01:00,"Sensex, Nifty Marginally Higher Ahead Of US-Russia Talks - Nasdaq",neutral,0,0.0,0.11588183374959271,0.47824627161026,Up
+2025-08-14 16:31:11+01:00,"Stock market today: Dow, S&P 500, Nasdaq slipped after PPI inflation comes in much hotter than expected - uk.finance.yahoo.com",neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-13 23:37:20+01:00,"S&P 500, Nasdaq hit new closing highs on rate cut hopes - Reuters",negative,-2,0.18181818181818182,-2.681126887773713,0.47083383798599243,Up
+2025-08-14 17:28:46+01:00,Tilray Eyes Reverse Stock Split As Nasdaq Listing Compliance Pressure Mounts - Yahoo Finance,neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 15:58:00+01:00,"Stock Market Today: Dow, S&P 500, Nasdaq Open Down After PPI Inflation Report; Bullish, Nvidia, AMD, More Movers - Barron's",neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 16:31:00+01:00,"Stock Market Today: Dow, S&P 500, Nasdaq modestly lower after hot PPI reading; small caps retreat - MarketWatch",neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-13 21:03:45+01:00,"Dow rallies 400 points for a second day, S&P 500 closes at another record high - CNBC",neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-13 23:18:00+01:00,Chinese Stocks Lead Stock Market Jump As This Small-Cap Index Breaks Out. Did The Nasdaq Really Suffer Stalling? - Investor's Business Daily,negative,-2,0.09523809523809523,-2.681126887773713,0.47083383798599243,Up
+2025-08-13 23:24:53+01:00,"Markets News, Aug. 13, 2025: S&P 500, Nasdaq Hit New Highs as Stock Market Rally Continues; Dow Nears First Record Since December - Investopedia",neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 11:11:05+01:00,eToro eyes global growth after $620mn Nasdaq listing - TheBanker.com,neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 15:11:02+01:00,Kyivstar edges closer to Nasdaq listing via SPAC merger with Cohen Circle - Data Center Dynamics,neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 09:59:00+01:00,European Shares Mostly Higher In Cautious Trade; FTSE 100 Underperforms - Nasdaq,negative,-1,0.1,-1.282278076761341,0.47083383798599243,Up
+2025-08-14 12:14:00+01:00,RedHill Biopharma receives Nasdaq extension to regain compliance by October - Investing.com UK,positive,1,0.08333333333333333,1.515419545263403,0.47083383798599243,Up
+2025-08-14 16:32:23+01:00,SanDisk Stock (NASDAQ: SNDK) Hovering Below Resistance Into Earnings - AskTraders.com,neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 12:37:16+01:00,"Stock market today: Dow, S&P 500, Nasdaq futures flat with PPI looming amid rate-cut fervor - uk.finance.yahoo.com",neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 15:27:10+01:00,TeraWulf Stock (NASDAQ: WULF) Surges on AI Hosting Contracts With Fluidstack - AskTraders.com,neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 10:41:00+01:00,DAX Modestly Higher As Investors Focus On Earnings - Nasdaq,neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 04:02:00+01:00,Magnitude International completes $8.8 million IPO on Nasdaq By Investing.com - Investing.com UK,neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-13 21:30:30+01:00,"Red Robin (NASDAQ:RRGB) Surprises With Q2 Sales, Stock Soars - uk.finance.yahoo.com",neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 11:19:00+01:00,"Sensex, Nifty End Little Changed As Traders Eye US-Russia Talks - Nasdaq",neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 16:54:24+01:00,"Stock market today: Dow, S&P 500, Nasdaq slip after PPI inflation comes in much hotter than expected - Yahoo Finance",neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 10:00:00+01:00,Is XRP a Buy While It's Below $5? - Nasdaq,neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 10:05:32+01:00,2 Nasdaq 100 Stocks to Research Further and 1 Facing Challenges - Yahoo Finance,neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 12:44:43+01:00,We Think Amdocs' (NASDAQ:DOX) Solid Earnings Are Understated - Yahoo Finance,negative,-1,0.1,-1.282278076761341,0.47083383798599243,Up
+2025-08-13 20:10:25+01:00,"S&P 500, Nasdaq near record highs on rate cut hopes; Big Tech stocks weaken - Reuters",negative,-2,0.14285714285714285,-2.681126887773713,0.47083383798599243,Up
+2025-08-14 11:31:59+01:00,Bio-Techne's (NASDAQ:TECH) Soft Earnings Are Actually Better Than They Appear - Yahoo Finance,positive,1,0.08333333333333333,1.515419545263403,0.47083383798599243,Up
+2025-08-14 11:00:00+01:00,Disney Stock: Buy or Sell? - Nasdaq,neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 11:00:00+01:00,Best Stock to Buy: Novo Nordisk Stock vs. UnitedHealth Stock - Nasdaq,positive,1,0.09090909090909091,1.515419545263403,0.47083383798599243,Up
+2025-08-13 21:39:00+01:00,"Stock Market Today: Dow Rockets 400 Points; S&P, Nasdaq Extend Rally On Rate Hopes To New Highs; Crypto Stock Catapults - Investor's Business Daily",neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 13:15:00+01:00,Why Advanced Micro Devices (AMD) Stock Soared Wednesday - Nasdaq,neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 15:55:03+01:00,Tilray Brands Reconfirms Strategy to Regain Nasdaq Compliance - Cannabis Business Times,positive,1,0.09090909090909091,1.515419545263403,0.47083383798599243,Up
+2025-08-14 12:20:19+01:00,Santech Holdings Limited (NASDAQ:STEC) May Have Run Too Fast Too Soon With Recent 29% Price Plummet - simplywall.st,neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 11:56:35+01:00,We Think Gilead Sciences' (NASDAQ:GILD) Profit Is Only A Baseline For What They Can Achieve - Yahoo Finance,positive,1,0.058823529411764705,1.515419545263403,0.47083383798599243,Up
+2025-08-13 17:58:06+01:00,"S&P 500, Nasdaq hover near record highs on September rate cut hopes - Reuters",negative,-1,0.08333333333333333,-1.282278076761341,0.47083383798599243,Up
+2025-08-14 13:24:00+01:00,Zacks Earnings Trends Highlights: Meta Platforms and Alphabet - Nasdaq,neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-13 18:25:22+01:00,HeartFlow's AI-powered medical technology debuts on Nasdaq - NSF - National Science Foundation (.gov),neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 11:50:12+01:00,What Is Intchains Group Limited's (NASDAQ:ICG) Share Price Doing? - simplywall.st,neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 00:15:00+01:00,Japan Stock Market Has Positive Lead For Thursday - Nasdaq,positive,1,0.1111111111111111,1.515419545263403,0.47083383798599243,Up
+2025-08-14 12:21:04+01:00,Veeco Instruments' (NASDAQ:VECO) Soft Earnings Don't Show The Whole Picture - Yahoo Finance,neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 16:03:49+01:00,"S&P 500, Nasdaq back in the green as Big Tech rides to the rescue - MarketWatch",neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 12:54:20+01:00,Do These 3 Checks Before Buying Arko Corp. (NASDAQ:ARKO) For Its Upcoming Dividend - simplywall.st,neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-13 22:47:00+01:00,"Nasdaq CEO on IPO market comeback, stock strength and AI adoption - CNBC",positive,1,0.08333333333333333,1.515419545263403,0.47083383798599243,Up
+2025-08-14 11:36:09+01:00,Weyco Group (NASDAQ:WEYS) Could Be A Buy For Its Upcoming Dividend - simplywall.st,neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 12:02:21+01:00,Tilray Brands Reconfirms Strategy to Regain Nasdaq Compliance; Requests Extension to Meet Listing Requirements - GlobeNewswire,positive,1,0.06666666666666667,1.515419545263403,0.47083383798599243,Up
+2025-08-14 11:12:08+01:00,"Theravance Biopharma (NASDAQ:TBPH) shareholder returns have been respectable, earning 51% in 1 year - simplywall.st",neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 15:53:03+01:00,BUUU Group begins trading on Nasdaq at $4 per share - Investing.com,neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 11:36:09+01:00,Inspired Entertainment's (NASDAQ:INSE) Shareholders May Want To Dig Deeper Than Statutory Profit - simplywall.st,neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 11:50:12+01:00,We Believe CleanSpark's (NASDAQ:CLSK) Earnings Are A Poor Guide For Its Profitability - simplywall.st,neutral,0,0.15384615384615385,0.116570734251031,0.47083383798599243,Up
+2025-08-14 02:00:00+01:00,"China Stock Market May Challenge 3,700-Point Level - Nasdaq",negative,-1,0.14285714285714285,-1.282278076761341,0.47083383798599243,Up
+2025-08-14 11:11:12+01:00,Q2 Rundown: Gilead Sciences (NASDAQ:GILD) Vs Other Therapeutics Stocks - au.finance.yahoo.com,neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 16:11:00+01:00,U.S. Stocks Showing A Lack Of Direction After Early Pullback - Nasdaq,negative,-1,0.09090909090909091,-1.282278076761341,0.47083383798599243,Up
+2025-08-13 20:15:36+01:00,"Stock market today: Dow pops, S&P 500 and Nasdaq waver as Fed rate cut bets surge - Yahoo Finance",negative,-1,0.058823529411764705,-1.282278076761341,0.47083383798599243,Up
+2025-08-13 22:47:16+01:00,"US stocks close midweek with continued rise; S&P 500, Nasdaq hit new record highs - Anadolu Ajansı",neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 12:29:53+01:00,RedHill Biopharma Granted Nasdaq Compliance Extension - TipRanks,neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 11:26:08+01:00,Odysight.ai (NASDAQ:ODYS investor five-year losses grow to 43% as the stock sheds US$11m this past week - simplywall.st,negative,-1,0.06666666666666667,-1.282278076761341,0.47083383798599243,Up
+2025-08-14 10:01:16+01:00,Reflecting On E-commerce Software Stocks’ Q2 Earnings: VeriSign (NASDAQ:VRSN) - Yahoo Finance,neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 13:29:03+01:00,Polyrizon regains compliance with Nasdaq listing requirements - Investing.com,positive,1,0.125,1.515419545263403,0.47083383798599243,Up
+2025-08-13 22:12:02+01:00,"Stock market today: Dow jumps 450 points as S&P 500, Nasdaq log back-to-back records on surging Fed rate cut bets - Yahoo Finance",negative,-1,0.05,-1.282278076761341,0.47083383798599243,Up
+2025-08-14 14:07:09+01:00,AstroNova's (NASDAQ:ALOT) investors will be pleased with their notable 52% return over the last five years - Yahoo Finance,positive,1,0.058823529411764705,1.515419545263403,0.47083383798599243,Up
+2025-08-14 11:40:12+01:00,There May Be Reason For Hope In Everspin Technologies' (NASDAQ:MRAM) Disappointing Earnings - simplywall.st,negative,-1,0.07692307692307693,-1.282278076761341,0.47083383798599243,Up
+2025-08-14 13:20:28+01:00,We Think You Can Look Beyond HireQuest's (NASDAQ:HQI) Lackluster Earnings - Yahoo Finance,negative,-1,0.08333333333333333,-1.282278076761341,0.47083383798599243,Up
+2025-08-14 12:03:10+01:00,Capital Allocation Trends At Jerash Holdings (US) (NASDAQ:JRSH) Aren't Ideal - Yahoo Finance,positive,1,0.08333333333333333,1.515419545263403,0.47083383798599243,Up
+2025-08-14 15:13:00+01:00,Innovative Solutions Sales Soar 105% - Nasdaq,positive,1,0.2,1.515419545263403,0.47083383798599243,Up
+2025-08-14 12:10:13+01:00,We Think Bioventus' (NASDAQ:BVS) Robust Earnings Are Conservative - simplywall.st,neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 11:26:08+01:00,"Investors Appear Satisfied With KORU Medical Systems, Inc.'s (NASDAQ:KRMD) Prospects As Shares Rocket 34% - simplywall.st",positive,1,0.07142857142857142,1.515419545263403,0.47083383798599243,Up
+2025-08-14 14:42:43+01:00,US Stock Market Today: S&P 500 Retreats From Record High Nasdaq Falls 64 Points On Producer Inflation Data - NDTV Profit,neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 17:11:06+01:00,"Little Excitement Around G-III Apparel Group, Ltd.'s (NASDAQ:GIII) Earnings - simplywall.st",positive,1,0.1,1.515419545263403,0.47083383798599243,Up
+2025-08-14 11:00:35+01:00,Q2 Earnings Outperformers: Perdoceo Education (NASDAQ:PRDO) And The Rest Of The Education Services Stocks - Yahoo Finance,neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 04:10:06+01:00,Magnitude International completes $8.8 million IPO on Nasdaq - Investing.com,neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 16:49:00+01:00,Stocks Fall Back on Hot PPI Report - Nasdaq,neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 12:12:02+01:00,Arko's (NASDAQ:ARKO) Weak Earnings May Only Reveal A Part Of The Whole Picture - Yahoo Finance,negative,-1,0.06666666666666667,-1.282278076761341,0.47083383798599243,Up
+2025-08-14 11:04:00+01:00,3 Reasons to Buy Chevron Stock Like There's No Tomorrow - Nasdaq,neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 10:00:00+01:00,AI Development Is Accelerating: 1 Vanguard ETF to Buy Right Now - Nasdaq,neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 15:14:00+01:00,"US market today: S&P 500, Nasdaq slip from peaks; Dow down 104 points after hot inflation data - Times of India",neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 12:20:16+01:00,"Maravai LifeSciences Holdings, Inc. (NASDAQ:MRVI) Just Reported Earnings, And Analysts Cut Their Target Price - simplywall.st",negative,-1,0.06666666666666667,-1.282278076761341,0.47083383798599243,Up
+2025-08-14 12:05:44+01:00,Some Investors May Be Willing To Look Past Verra Mobility's (NASDAQ:VRRM) Soft Earnings - Yahoo Finance,neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 17:17:05+01:00,"Why Amedisys, Inc. (NASDAQ:AMED) Could Be Worth Watching - simplywall.st",neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 14:32:00+01:00,Oracle To Offer Customers Access To Google's Advanced AI Models - Nasdaq,neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 12:46:26+01:00,"Harvard Bioscience, Inc. (NASDAQ:HBIO) Just Reported, And Analysts Assigned A US$3.00 Price Target - simplywall.st",neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 13:25:59+01:00,GigaCloud Technology's (NASDAQ:GCT) Earnings Offer More Than Meets The Eye - Yahoo Finance,neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 11:26:10+01:00,"Aardvark Therapeutics, Inc.'s (NASDAQ:AARD) stock price dropped 11% last week; individual investors would not be happy - simplywall.st",negative,-2,0.125,-2.681126887773713,0.47083383798599243,Up
+2025-08-14 14:38:22+01:00,Microsoft (NASDAQ: MSFT) Stock Price Prediction for 2025: Where Will It Be in 1 Year - 24/7 Wall St.,neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 13:40:44+01:00,Meta Platforms (NASDAQ: META) Stock Price Prediction for 2025: Where Will It Be in 1 Year (Aug 14) - 24/7 Wall St.,neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 11:26:08+01:00,Revenues Working Against Nortech Systems Incorporated's (NASDAQ:NSYS) Share Price - simplywall.st,negative,-1,0.1,-1.282278076761341,0.47083383798599243,Up
+2025-08-14 12:28:17+01:00,"Papa John's International, Inc. (NASDAQ:PZZA) Goes Ex-Dividend Soon - simplywall.st",neutral,0,0.0,0.116570734251031,0.47083383798599243,Up
+2025-08-14 15:55:42+01:00,"Stock market today: Dow, S&P 500, Nasdaq wobble after PPI inflation comes in much hotter than expected - ca.finance.yahoo.com",neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-13 23:37:20+01:00,"S&P 500, Nasdaq hit new closing highs on rate cut hopes - Reuters",negative,-2,0.18181818181818182,-3.5872162124743414,0.46642032265663147,Up
+2025-08-14 20:39:00+01:00,"Notable Thursday Option Activity: STNG, RDDT, WBA - Nasdaq",neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 21:05:35+01:00,"S&P 500 tiptoes to fresh record close, Dow and Nasdaq finish lower - MarketWatch",neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 21:01:00+01:00,"Ahead of Its Historic Listing on Nasdaq, Kyivstar Group Completes Business Combination with Cohen Circle - Yahoo Finance",neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 19:02:00+01:00,Stock Market Today: Nasdaq Edges Up; AI Stock Coherent Hits 3 Sell Signals As Coach Parent Tapestry Tests 50-Day (Live) - Investor's Business Daily,neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 18:11:00+01:00,"Stock Market Today: Dow, S&P 500 Fall; Nasdaq Wavers After PPI Inflation Report; Bullish, Nvidia, AMD, More Movers - Barron's",neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-13 23:24:53+01:00,"Markets News, Aug. 13, 2025: S&P 500, Nasdaq Hit New Highs as Stock Market Rally Continues; Dow Nears First Record Since December - Investopedia",neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 18:27:08+01:00,"Stock market today: Dow, S&P 500, Nasdaq wobble after PPI inflation comes in much hotter than expected - uk.finance.yahoo.com",neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 11:11:05+01:00,eToro eyes global growth after $620mn Nasdaq listing - TheBanker.com,neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 15:11:02+01:00,Kyivstar edges closer to Nasdaq listing via SPAC merger with Cohen Circle - Data Center Dynamics,neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 09:59:00+01:00,European Shares Mostly Higher In Cautious Trade; FTSE 100 Underperforms - Nasdaq,negative,-1,0.1,-1.8373546454136873,0.46642032265663147,Up
+2025-08-14 16:32:23+01:00,SanDisk Stock (NASDAQ: SNDK) Hovering Below Resistance Into Earnings - AskTraders.com,neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 12:14:00+01:00,RedHill Biopharma receives Nasdaq extension to regain compliance by October - Investing.com UK,positive,1,0.08333333333333333,1.6623684887076218,0.46642032265663147,Up
+2025-08-14 15:50:22+01:00,Nasdaq Brushes off PPI Report as Yields Rise following PPI Report - tastylive,neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 12:37:16+01:00,"Stock market today: Dow, S&P 500, Nasdaq futures flat with PPI looming amid rate-cut fervor - uk.finance.yahoo.com",neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 17:40:00+01:00,Why Nice Stock Sank Today - Nasdaq,neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 14:33:04+01:00,"S&P 500, Nasdaq retreat from record rally after hot producer inflation data - Reuters",neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 19:36:17+01:00,We Think That There Are Issues Underlying CommScope Holding Company's (NASDAQ:COMM) Earnings - uk.finance.yahoo.com,neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 15:05:00+01:00,THL Partners To Acquire Headlands Research From KKR For Undisclosed Sum - Nasdaq,negative,-1,0.08333333333333333,-1.8373546454136873,0.46642032265663147,Up
+2025-08-14 21:01:21+01:00,"Stock market today: Dow, S&P 500, Nasdaq hit pause as hot PPI inflation data cools rate-cut rally - Yahoo Finance",neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 19:51:00+01:00,"Stock Market Today: S&P 500 and Nasdaq flat, Dow trims loss after hot PPI reading; small caps skid - MarketWatch",neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 19:41:19+01:00,Insulet's (NASDAQ:PODD) Conservative Accounting Might Explain Soft Earnings - Yahoo Finance,neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 19:30:00+01:00,Why Shares of CoreWeave Are Plunging This Week - Nasdaq,neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 10:41:00+01:00,DAX Modestly Higher As Investors Focus On Earnings - Nasdaq,neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-13 21:30:30+01:00,"Red Robin (NASDAQ:RRGB) Surprises With Q2 Sales, Stock Soars - uk.finance.yahoo.com",neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 17:28:46+01:00,Tilray Eyes Reverse Stock Split As Nasdaq Listing Compliance Pressure Mounts - Yahoo Finance,neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 13:15:00+01:00,Why Advanced Micro Devices (AMD) Stock Soared Wednesday - Nasdaq,neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 11:19:00+01:00,"Sensex, Nifty End Little Changed As Traders Eye US-Russia Talks - Nasdaq",neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 18:00:00+01:00,"Vision Marine (NASDAQ: VMAR) Sees 504% Boat Sales Surge, Slashes Debt Following Nautical Ventures Acquisition - Yahoo Finance",neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 19:15:56+01:00,eToro (NASDAQ:ETOR) Stock Slips 8.3% After Q2 Beat - Buy The Dip - tradingnews.com,neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 16:47:00+01:00,Will Uber's $300M Bet on Gravity Accelerate Lucid's Growth? - Nasdaq,neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 19:53:26+01:00,There May Be Reason For Hope In Insulet's (NASDAQ:PODD) Disappointing Earnings - simplywall.st,negative,-1,0.08333333333333333,-1.8373546454136873,0.46642032265663147,Up
+2025-08-14 19:58:00+01:00,Stocks Are Mixed After Hot PPI Report - Nasdaq,neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 19:33:45+01:00,QuinStreet's (NASDAQ:QNST) Solid Earnings Are Supported By Other Strong Factors - Yahoo Finance,positive,1,0.08333333333333333,1.6623684887076218,0.46642032265663147,Up
+2025-08-14 15:55:03+01:00,Tilray Brands Reconfirms Strategy to Regain Nasdaq Compliance - Cannabis Business Times,positive,1,0.09090909090909091,1.6623684887076218,0.46642032265663147,Up
+2025-08-14 10:00:00+01:00,Is XRP a Buy While It's Below $5? - Nasdaq,neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 10:05:32+01:00,2 Nasdaq 100 Stocks to Research Further and 1 Facing Challenges - Yahoo Finance,neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 16:08:00+01:00,Why Lucid Stock Jumped 16.6% in July - Nasdaq,neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 12:44:43+01:00,We Think Amdocs' (NASDAQ:DOX) Solid Earnings Are Understated - Yahoo Finance,negative,-1,0.1,-1.8373546454136873,0.46642032265663147,Up
+2025-08-14 11:00:00+01:00,Disney Stock: Buy or Sell? - Nasdaq,neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 11:00:00+01:00,Best Stock to Buy: Novo Nordisk Stock vs. UnitedHealth Stock - Nasdaq,positive,1,0.09090909090909091,1.6623684887076218,0.46642032265663147,Up
+2025-08-14 11:31:59+01:00,Bio-Techne's (NASDAQ:TECH) Soft Earnings Are Actually Better Than They Appear - Yahoo Finance,positive,1,0.08333333333333333,1.6623684887076218,0.46642032265663147,Up
+2025-08-14 16:49:00+01:00,Stocks Fall Back on Hot PPI Report - Nasdaq,neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 18:31:00+01:00,Global Water Resources Q2 Growth Boosted - Nasdaq,positive,1,0.16666666666666666,1.6623684887076218,0.46642032265663147,Up
+2025-08-14 18:18:00+01:00,Why CoreWeave Stock Is Plummeting Today - Nasdaq,neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 11:56:35+01:00,We Think Gilead Sciences' (NASDAQ:GILD) Profit Is Only A Baseline For What They Can Achieve - Yahoo Finance,positive,1,0.058823529411764705,1.6623684887076218,0.46642032265663147,Up
+2025-08-14 20:07:00+01:00,Data Storage Plans Major Asset Sale - Nasdaq,neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 13:00:00+01:00,Buy Soaring Tech Stock FN Before Earnings for AI Growth? - Nasdaq,neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 16:03:49+01:00,"S&P 500, Nasdaq back in the green as Big Tech rides to the rescue - MarketWatch",neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 11:50:12+01:00,What Is Intchains Group Limited's (NASDAQ:ICG) Share Price Doing? - simplywall.st,neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 13:24:00+01:00,Zacks Earnings Trends Highlights: Meta Platforms and Alphabet - Nasdaq,neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 16:40:00+01:00,BLBD vs. TSLA: Which Stock Is the Better Value Option? - Nasdaq,positive,1,0.09090909090909091,1.6623684887076218,0.46642032265663147,Up
+2025-08-14 19:22:00+01:00,MediWound Revenue Jumps 43% in Q2 - Nasdaq,neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 12:21:04+01:00,Veeco Instruments' (NASDAQ:VECO) Soft Earnings Don't Show The Whole Picture - Yahoo Finance,neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 15:53:03+01:00,BUUU Group begins trading on Nasdaq at $4 per share - Investing.com,neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 20:05:00+01:00,Why Is Everyone Talking About Lyft? - Nasdaq,neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 18:59:29+01:00,Cal-Maine Foods' (NASDAQ:CALM) 27% CAGR outpaced the company's earnings growth over the same five-year period - Yahoo Finance,neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 00:15:00+01:00,Japan Stock Market Has Positive Lead For Thursday - Nasdaq,positive,1,0.1111111111111111,1.6623684887076218,0.46642032265663147,Up
+2025-08-14 11:35:57+01:00,We Think That There Are Issues Underlying Pennant Group's (NASDAQ:PNTG) Earnings - Yahoo Finance,neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 11:36:09+01:00,Weyco Group (NASDAQ:WEYS) Could Be A Buy For Its Upcoming Dividend - simplywall.st,neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 12:02:21+01:00,Tilray Brands Reconfirms Strategy to Regain Nasdaq Compliance; Requests Extension to Meet Listing Requirements - GlobeNewswire,positive,1,0.06666666666666667,1.6623684887076218,0.46642032265663147,Up
+2025-08-14 11:36:09+01:00,Inspired Entertainment's (NASDAQ:INSE) Shareholders May Want To Dig Deeper Than Statutory Profit - simplywall.st,neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 11:11:12+01:00,Q2 Rundown: Gilead Sciences (NASDAQ:GILD) Vs Other Therapeutics Stocks - au.finance.yahoo.com,neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 11:50:12+01:00,We Believe CleanSpark's (NASDAQ:CLSK) Earnings Are A Poor Guide For Its Profitability - simplywall.st,neutral,0,0.15384615384615385,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 19:59:44+01:00,QuinStreet's (NASDAQ:QNST) Performance Is Even Better Than Its Earnings Suggest - simplywall.st,positive,1,0.09090909090909091,1.6623684887076218,0.46642032265663147,Up
+2025-08-14 10:30:00+01:00,Is Broadcom Poised to Be the Next Nvidia? - Nasdaq,neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 02:00:00+01:00,"China Stock Market May Challenge 3,700-Point Level - Nasdaq",negative,-1,0.14285714285714285,-1.8373546454136873,0.46642032265663147,Up
+2025-08-14 10:01:16+01:00,Reflecting On E-commerce Software Stocks’ Q2 Earnings: VeriSign (NASDAQ:VRSN) - Yahoo Finance,neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-13 21:39:00+01:00,"Stock Market Today: Dow Rockets 400 Points; S&P, Nasdaq Extend Rally On Rate Hopes To New Highs; Crypto Stock Catapults - Investor's Business Daily",neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 20:22:00+01:00,Tomi Revenue Drops 66 Percent in Q2 - Nasdaq,neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 18:57:00+01:00,LM Funding America Swings to Q2 Profit - Nasdaq,neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 14:07:09+01:00,AstroNova's (NASDAQ:ALOT) investors will be pleased with their notable 52% return over the last five years - Yahoo Finance,positive,1,0.058823529411764705,1.6623684887076218,0.46642032265663147,Up
+2025-08-14 12:05:44+01:00,Some Investors May Be Willing To Look Past Verra Mobility's (NASDAQ:VRRM) Soft Earnings - Yahoo Finance,neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 17:11:06+01:00,"Little Excitement Around G-III Apparel Group, Ltd.'s (NASDAQ:GIII) Earnings - simplywall.st",positive,1,0.1,1.6623684887076218,0.46642032265663147,Up
+2025-08-14 11:26:08+01:00,Odysight.ai (NASDAQ:ODYS investor five-year losses grow to 43% as the stock sheds US$11m this past week - simplywall.st,negative,-1,0.06666666666666667,-1.8373546454136873,0.46642032265663147,Up
+2025-08-14 13:29:03+01:00,Polyrizon regains compliance with Nasdaq listing requirements - Investing.com,positive,1,0.125,1.6623684887076218,0.46642032265663147,Up
+2025-08-14 11:40:12+01:00,There May Be Reason For Hope In Everspin Technologies' (NASDAQ:MRAM) Disappointing Earnings - simplywall.st,negative,-1,0.07692307692307693,-1.8373546454136873,0.46642032265663147,Up
+2025-08-14 18:40:00+01:00,Select Water Solutions To Dual List On NYSE Texas - Nasdaq,neutral,0,0.0,-0.08749307835303273,0.46642032265663147,Up
+2025-08-14 13:20:28+01:00,We Think You Can Look Beyond HireQuest's (NASDAQ:HQI) Lackluster Earnings - Yahoo Finance,negative,-1,0.08333333333333333,-1.8373546454136873,0.46642032265663147,Up
+2025-08-15 11:39:00+01:00,"Stock market today: Dow, S&P 500, Nasdaq futures climb as investors await retail data after rate-cut bets cool - Yahoo Finance",neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 14:07:00+01:00,Nano Labs Shifts to Crypto Reserves - Nasdaq,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 16:00:37+01:00,"Stock market today: Dow eyes record on UnitedHealth surge, S&P 500, Nasdaq fall as rate-cut bets cool - uk.finance.yahoo.com",neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 14:15:00+01:00,“KYIV” Ticker Goes Live on Nasdaq as Kyivstar Group Commences Trading - Yahoo Finance,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 14:57:00+01:00,"Dow Opens at Record High, Thanks to Buffett Boost - Barron's",positive,1,0.1,1.2914634748906935,0.5339831709861755,Up
+2025-08-14 22:27:00+01:00,"Stock Market for Aug. 14, 2025: S&P 500 logs fresh record, Dow and Nasdaq end lower following hot PPI reading; small caps decline - MarketWatch",negative,-1,0.047619047619047616,-1.7936992706815191,0.5339831709861755,Up
+2025-08-15 09:14:37+01:00,Kyivstar makes historic Nasdaq debut as first Ukrainian listing - The Kyiv Independent,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-14 21:54:00+01:00,Stock Market Today: Indexes Mixed; Coherent Hits 3 Sell Signals But New IPO Bullish Jumps 10%; 3 Growth Stocks Set Up Entries Nasdaq Edges Up; Tapestry Tests 50-Day - Investor's Business Daily,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-14 20:06:57+01:00,“30% Higher Gaming Performance”: Intel Stock (NASDAQ:INTC) Gains With New Lunar Lake Findings - TipRanks,positive,1,0.07692307692307693,1.2914634748906935,0.5339831709861755,Up
+2025-08-15 14:14:00+01:00,Fast Track Group receives Nasdaq notice for minimum bid price deficiency - Investing.com UK,negative,-1,0.07692307692307693,-1.7936992706815191,0.5339831709861755,Up
+2025-08-15 13:00:00+01:00,Vyome To Mark First Day of Trading as HIND with Nasdaq Opening Bell - Business Wire,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 10:57:32+01:00,Intel’s Stock (NASDAQ:INTC) Adds Pre-Market To Recent Gains – The Latest - AskTraders.com,positive,1,0.08333333333333333,1.2914634748906935,0.5339831709861755,Up
+2025-08-15 15:56:00+01:00,Ukraine’s Kyivstar Shares Fall on Nasdaq Listing Debut - The Wall Street Journal,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 14:14:30+01:00,Is Bitcoin Price Outperforming Gold And NASDAQ This Cycle? - Bitcoin Magazine,positive,1,0.09090909090909091,1.2914634748906935,0.5339831709861755,Up
+2025-08-15 13:56:10+01:00,Loss-Making ADS-TEC Energy PLC (NASDAQ:ADSE) Set To Breakeven - simplywall.st,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 09:00:00+01:00,FLASH FRIDAY: A Look Back at a Look Back at Nasdaq - Traders Magazine,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-14 18:14:32+01:00,"Stock market today: Dow, S&P 500, Nasdaq wobble after PPI inflation comes in much hotter than expected - uk.finance.yahoo.com",neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 13:06:00+01:00,KindlyMD upgrades to Nasdaq Global Market from Capital Market By Investing.com - Investing.com UK,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 11:27:32+01:00,Tesla Price Target (NASDAQ:TSLA) Raised on Tariff Relief Optimism - AskTraders.com,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 13:30:00+01:00,ProShares Launches First ETF to Target 2x Daily Returns of Nasdaq-100 Top 30 Index - Business Wire,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 14:15:00+01:00,“KYIV” Ticker Goes Live on Nasdaq as Kyivstar Group Commences Trading - uk.finance.yahoo.com,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 12:36:00+01:00,Plus Therapeutics meets Nasdaq equity requirement to maintain listing By Investing.com - Investing.com UK,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 12:27:03+01:00,"Analysts Have Been Trimming Their Metagenomi, Inc. (NASDAQ:MGX) Price Target After Its Latest Report - uk.finance.yahoo.com",neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 11:08:53+01:00,We Think Aura Biosciences (NASDAQ:AURA) Can Afford To Drive Business Growth - uk.finance.yahoo.com,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 15:05:52+01:00,Oruka Therapeutics (NASDAQ:ORKA) Is In A Good Position To Deliver On Growth Plans - Yahoo Finance,positive,1,0.06666666666666667,1.2914634748906935,0.5339831709861755,Up
+2025-08-15 11:06:37+01:00,The 20% return this week takes Atlantic American's (NASDAQ:AAME) shareholders one-year gains to 89% - Yahoo Finance,positive,1,0.07142857142857142,1.2914634748906935,0.5339831709861755,Up
+2025-08-15 12:15:34+01:00,On Sun Finance Treasury Limited bond trading on Nasdaq Baltic Alternative market First North - TradingView,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 12:00:15+01:00,Eurobites: Kyivstar completes Nasdaq listing - Light Reading,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 13:51:46+01:00,It's Down 33% But JIADE Limited (NASDAQ:JDZG) Could Be Riskier Than It Looks - simplywall.st,negative,-1,0.07692307692307693,-1.7936992706815191,0.5339831709861755,Up
+2025-08-14 21:22:48+01:00,"Stock market today: Dow, S&P 500, Nasdaq hit pause as hot PPI inflation data cools rate-cut rally - Yahoo Finance",neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-14 23:43:26+01:00,"Wall Street ends flat, but S&P hits another closing high as rate-cut bets waver - Reuters",negative,-1,0.06666666666666667,-1.7936992706815191,0.5339831709861755,Up
+2025-08-15 11:25:19+01:00,Solid Earnings Reflect Formula One Group's (NASDAQ:FWON.K) Strength As A Business - sg.finance.yahoo.com,positive,1,0.08333333333333333,1.2914634748906935,0.5339831709861755,Up
+2025-08-15 11:28:56+01:00,We Think Plus Therapeutics (NASDAQ:PSTV) Needs To Drive Business Growth Carefully - simplywall.st,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 00:02:00+01:00,Japan Shares May Tick Lower Again On Friday - Nasdaq,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 07:39:00+01:00,"Stock Market News for Aug 15, 2025 - Nasdaq",neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 13:26:04+01:00,Read This Before Considering MarketAxess Holdings Inc. (NASDAQ:MKTX) For Its Upcoming US$0.76 Dividend - simplywall.st,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 12:55:18+01:00,Shareholders Can Be Confident That Formula One Group's (NASDAQ:FWON.K) Earnings Are High Quality - simplywall.st,positive,1,0.07142857142857142,1.2914634748906935,0.5339831709861755,Up
+2025-08-15 11:56:47+01:00,We Think Papa John's International's (NASDAQ:PZZA) Solid Earnings Are Understated - Yahoo Finance,negative,-1,0.08333333333333333,-1.7936992706815191,0.5339831709861755,Up
+2025-08-15 13:43:29+01:00,"Here's Why It's Unlikely That Hudson Global, Inc.'s (NASDAQ:HSON) CEO Will See A Pay Rise This Year - simplywall.st",neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 11:48:17+01:00,We Think Willdan Group's (NASDAQ:WLDN) Robust Earnings Are Conservative - Yahoo Finance,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 12:10:00+01:00,Better Long-Term Crypto Buy: XRP vs. Ethereum - Nasdaq,positive,1,0.125,1.2914634748906935,0.5339831709861755,Up
+2025-08-15 13:57:22+01:00,Is It Smart To Buy KLA Corporation (NASDAQ:KLAC) Before It Goes Ex-Dividend? - simplywall.st,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 11:32:02+01:00,Market Participants Recognise TriMas Corporation's (NASDAQ:TRS) Earnings Pushing Shares 26% Higher - simplywall.st,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 07:12:56+01:00,VEON (VEON) Is Up 9.5% After Kyivstar’s Nasdaq Debut and Starlink Partnership - What’s Changed - simplywall.st,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 09:55:28+01:00,Unpacking Q2 Earnings: Appian (NASDAQ:APPN) In The Context Of Other Automation Software Stocks - Yahoo Finance,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 11:14:20+01:00,Ukraine's Kyivstar jumps in landmark Nasdaq listing after SPAC deal close - TradingView,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-14 17:40:00+01:00,Why Nice Stock Sank Today - Nasdaq,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 12:18:03+01:00,Institutional investors are UP Fintech Holding Limited's (NASDAQ:TIGR) biggest bettors and were rewarded after last week's US$74m market cap gain - simplywall.st,positive,2,0.1,2.8340448476768,0.5339831709861755,Up
+2025-08-15 11:46:23+01:00,Ziff Davis' (NASDAQ:ZD) Conservative Accounting Might Explain Soft Earnings - simplywall.st,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 13:51:18+01:00,"Cytek Biosciences, Inc. (NASDAQ:CTKB) Stock Catapults 26% Though Its Price And Business Still Lag The Industry - simplywall.st",negative,-1,0.0625,-1.7936992706815191,0.5339831709861755,Up
+2025-08-15 13:35:47+01:00,"There's Reason For Concern Over C.H. Robinson Worldwide, Inc.'s (NASDAQ:CHRW) Massive 25% Price Jump - simplywall.st",negative,-1,0.07142857142857142,-1.7936992706815191,0.5339831709861755,Up
+2025-08-15 12:19:00+01:00,Stocks Close Mixed After Hot PPI Report - Nasdaq,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 13:52:55+01:00,Companies Like Enliven Therapeutics (NASDAQ:ELVN) Are In A Position To Invest In Growth - simplywall.st,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 11:15:00+01:00,Where Will Oklo Be in 3 Years? - Nasdaq,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 11:57:47+01:00,NetScout Systems' (NASDAQ:NTCT) Strong Earnings Are Of Good Quality - Yahoo Finance,positive,2,0.18181818181818182,2.8340448476768,0.5339831709861755,Up
+2025-08-15 12:25:42+01:00,Datadog's (NASDAQ:DDOG) Soft Earnings Are Actually Better Than They Appear - Yahoo Finance,positive,1,0.08333333333333333,1.2914634748906935,0.5339831709861755,Up
+2025-08-15 09:28:00+01:00,What's Wrong With Lululemon Stock? - Nasdaq,negative,-1,0.16666666666666666,-1.7936992706815191,0.5339831709861755,Up
+2025-08-15 13:55:42+01:00,"Rainbows and Unicorns: Mersana Therapeutics, Inc. (NASDAQ:MRSN) Analysts Just Became A Lot More Optimistic - simplywall.st",positive,1,0.06666666666666667,1.2914634748906935,0.5339831709861755,Up
+2025-08-15 11:46:18+01:00,Viewbix Inc. (NASDAQ:VBIX) Shares May Have Slumped 32% But Getting In Cheap Is Still Unlikely - simplywall.st,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 13:21:51+01:00,Mitek Systems' (NASDAQ:MITK) Strong Earnings Are Of Good Quality - simplywall.st,positive,2,0.2,2.8340448476768,0.5339831709861755,Up
+2025-08-15 13:50:59+01:00,Will Acrivon Therapeutics (NASDAQ:ACRV) Spend Its Cash Wisely? - simplywall.st,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 11:58:48+01:00,HighPeak Energy (NASDAQ:HPK) Is Due To Pay A Dividend Of $0.04 - Yahoo Finance,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 13:27:22+01:00,Adeia's (NASDAQ:ADEA) Performance Is Even Better Than Its Earnings Suggest - simplywall.st,positive,1,0.09090909090909091,1.2914634748906935,0.5339831709861755,Up
+2025-08-15 12:49:18+01:00,"Epsilon Energy (NASDAQ:EPSN) sheds 12% this week, as yearly returns fall more in line with earnings growth - simplywall.st",neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 11:58:53+01:00,Is Mobilicom (NASDAQ:MOB) In A Good Position To Invest In Growth? - simplywall.st,positive,1,0.08333333333333333,1.2914634748906935,0.5339831709861755,Up
+2025-08-15 09:50:26+01:00,ePlus (NASDAQ:PLUS) Q2 Earnings: Leading The IT Distribution & Solutions Pack - Yahoo Finance,positive,1,0.09090909090909091,1.2914634748906935,0.5339831709861755,Up
+2025-08-15 12:06:05+01:00,There May Be Some Bright Spots In Playtika Holding's (NASDAQ:PLTK) Earnings - Yahoo Finance,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 11:43:47+01:00,Akamai Technologies' (NASDAQ:AKAM) Conservative Accounting Might Explain Soft Earnings - Yahoo Finance,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-14 21:01:00+01:00,"Ahead of Its Historic Listing on Nasdaq, Kyivstar Group Completes Business Combination with Cohen Circle - Yahoo Finance",neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 11:54:25+01:00,"As Afya (NASDAQ:AFYA) lifts 3.8% this past week, investors may now be noticing the company's five-year earnings growth - simplywall.st",neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 09:55:48+01:00,Q2 Earnings Roundup: Rumble (NASDAQ:RUM) And The Rest Of The Digital Media & Content Platforms Segment - Yahoo Finance,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 03:01:00+01:00,TuHURA R&D Jumps 75% in Q2 - Nasdaq,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 11:16:09+01:00,QuantaSing Group Limited (NASDAQ:QSG) Not Doing Enough For Some Investors As Its Shares Slump 27% - simplywall.st,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 09:09:00+01:00,Where Will Navitas Semiconductor Stock Be in 3 Years? - Nasdaq,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 12:06:15+01:00,The one-year returns have been favorable for Interlink Electronics (NASDAQ:LINK) shareholders despite underlying losses increasing - simplywall.st,positive,1,0.1875,1.2914634748906935,0.5339831709861755,Up
+2025-08-15 15:42:46+01:00,"Dow Jones Today: Dow Hits First Record High Since December as UnitedHealth Stock Soars on News of Berkshire Stake; S&P 500, Nasdaq Slip - Investopedia",neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-14 16:32:23+01:00,SanDisk Stock (NASDAQ: SNDK) Hovering Below Resistance Into Earnings - AskTraders.com,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 13:52:38+01:00,Solid Earnings Reflect Bloomin' Brands' (NASDAQ:BLMN) Strength As A Business - simplywall.st,positive,1,0.09090909090909091,1.2914634748906935,0.5339831709861755,Up
+2025-08-15 12:10:17+01:00,TG Therapeutics' (NASDAQ:TGTX) Anemic Earnings Might Be Worse Than You Think - Yahoo Finance,negative,-1,0.07692307692307693,-1.7936992706815191,0.5339831709861755,Up
+2025-08-15 13:42:13+01:00,Some May Be Optimistic About Playtika Holding's (NASDAQ:PLTK) Earnings - simplywall.st,positive,1,0.1,1.2914634748906935,0.5339831709861755,Up
+2025-08-15 13:16:44+01:00,Newell Brands (NASDAQ:NWL) Is Due To Pay A Dividend Of $0.07 - simplywall.st,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 11:37:30+01:00,We're Keeping An Eye On Plus Therapeutics' (NASDAQ:PSTV) Cash Burn Rate - Yahoo Finance,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 15:27:00+01:00,Wheat Sneaking Higher to Start Friday - Nasdaq,neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 11:17:29+01:00,Could The Market Be Wrong About QuantaSing Group Limited (NASDAQ:QSG) Given Its Attractive Financial Prospects? - simplywall.st,neutral,0,0.125,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 11:28:00+01:00,"Actuate Therapeutics, Inc.'s (NASDAQ:ACTU) largest shareholders are private equity firms with 62% ownership, institutions own 20% - Yahoo Finance",neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
+2025-08-15 13:56:10+01:00,"Tempus AI, Inc. (NASDAQ:TEM) Looks Just Right With A 28% Price Jump - simplywall.st",neutral,0,0.0,-0.25111789789541267,0.5339831709861755,Up
