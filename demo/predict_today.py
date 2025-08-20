@@ -203,7 +203,7 @@ def load_trained_model():
 
 
 
-def load_threshold_and_calibration(default_threshold=0.01):
+def load_threshold_and_calibration(default_threshold=0.5):
     threshold = default_threshold
     invert = False
 
@@ -259,7 +259,7 @@ def load_threshold_and_calibration(default_threshold=0.01):
 
 def try_load_scaler_and_threshold():
     scaler = StandardScaler()
-    threshold = 0.01
+    threshold = 0.5
     if SCALER_PATH.exists():
         try:
             scaler = joblib.load(SCALER_PATH)
@@ -330,7 +330,7 @@ def prepare_inputs(
     enc_list = build_encodings_per_title(news_df, tokenizer)
     return enc_list, X_num
 
-def run_prediction(model: Model, enc_list, X_num: np.ndarray, threshold: float = 0.01, invert: bool = False) -> tuple[float, int]:
+def run_prediction(model: Model, enc_list, X_num: np.ndarray, threshold: float = 0.5, invert: bool = False) -> tuple[float, int]:
     batch = {
         "input_ids": tf.concat([e["input_ids"] for e in enc_list], axis=0),
         "attention_mask": tf.concat([e["attention_mask"] for e in enc_list], axis=0),
@@ -490,7 +490,7 @@ if __name__ == "__main__":
 
     # 5) Predict
     print("[step] Predict...")
-    threshold, invert = load_threshold_and_calibration(default_threshold=0.01)
+    threshold, invert = load_threshold_and_calibration(default_threshold=0.5)
     avg_prob, label = run_prediction(model, enc_list, X_num, threshold=threshold, invert=invert)
     print("\n" + "="*60)
     print("  PREDICTION")

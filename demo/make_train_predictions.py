@@ -36,7 +36,7 @@ def _find(path_rel: Path) -> Path:
 
 # 修改這兩個路徑成你的實際資料檔名
 SRC_CSV_REL   = Path("data/processed/Merged_News_and_NASDAQ_Data_Extended_With_Sentiment.csv")
-OUT_CSV_REL   = Path("data/processed/train_predictions.csv")
+OUT_CSV_REL   = Path("data/demo/processed/train_predictions.csv")
 
 KERAS_REL     = Path("models/finbert_multi_input.keras")    # 你保存的 .keras 完整模型
 H5_REL        = Path("models/finbert_multi_input.h5")       # 你保存的 .h5 權重（備案）
